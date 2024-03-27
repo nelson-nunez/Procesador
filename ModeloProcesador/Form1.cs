@@ -17,6 +17,11 @@ namespace ModeloProcesador
             InitializeComponent();
         }
 
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+        }
+
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             label53.Text = Extensions.Extensions.DeterminarModo(textBox2.Text);
