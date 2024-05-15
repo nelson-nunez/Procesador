@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\DeterminarModo.cs" />
+    <Compile Include="Extensions\BooleanExtensions.cs" />
+    <Compile Include="Extensions\Extensiones.cs" />
+    <Compile Include="Extensions\InstructionSet.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

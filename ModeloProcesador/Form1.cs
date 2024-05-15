@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace ModeloProcesador
 {
     public partial class Form1 : Form
@@ -24,7 +26,27 @@ namespace ModeloProcesador
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            label53.Text = Extensions.Extensions.DeterminarModo(textBox2.Text);
+            try
+            {
+                label53.Text = textBox2.Text.DeterminarModo();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                label61.Text = textBox4.Text.GetInstruction();
+                textBox2.Text = label61.Text;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

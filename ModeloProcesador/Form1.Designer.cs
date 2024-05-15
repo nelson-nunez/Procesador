@@ -115,6 +115,21 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -171,7 +186,6 @@
             this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Location = new System.Drawing.Point(24, 13);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(365, 334);
@@ -256,7 +270,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(224, 299);
+            this.textBox2.Location = new System.Drawing.Point(516, 35);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(135, 22);
             this.textBox2.TabIndex = 8;
@@ -266,7 +280,7 @@
             // 
             this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.splitContainer1);
-            this.groupBox2.Location = new System.Drawing.Point(411, 210);
+            this.groupBox2.Location = new System.Drawing.Point(414, 260);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(111, 113);
             this.groupBox2.TabIndex = 10;
@@ -355,7 +369,7 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.White;
             this.groupBox3.Controls.Add(this.splitContainer2);
-            this.groupBox3.Location = new System.Drawing.Point(528, 210);
+            this.groupBox3.Location = new System.Drawing.Point(531, 260);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(111, 113);
             this.groupBox3.TabIndex = 11;
@@ -445,7 +459,7 @@
             this.groupBox4.BackColor = System.Drawing.Color.White;
             this.groupBox4.Controls.Add(this.splitContainer3);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(346, 353);
+            this.groupBox4.Location = new System.Drawing.Point(302, 379);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(111, 113);
             this.groupBox4.TabIndex = 11;
@@ -535,7 +549,7 @@
             this.groupBox5.BackColor = System.Drawing.Color.White;
             this.groupBox5.Controls.Add(this.splitContainer4);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(179, 462);
+            this.groupBox5.Location = new System.Drawing.Point(179, 503);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(111, 113);
             this.groupBox5.TabIndex = 12;
@@ -625,7 +639,7 @@
             this.groupBox6.BackColor = System.Drawing.Color.White;
             this.groupBox6.Controls.Add(this.splitContainer5);
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(30, 462);
+            this.groupBox6.Location = new System.Drawing.Point(30, 503);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(111, 113);
             this.groupBox6.TabIndex = 13;
@@ -715,7 +729,7 @@
             this.groupBox7.BackColor = System.Drawing.Color.White;
             this.groupBox7.Controls.Add(this.splitContainer6);
             this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox7.Location = new System.Drawing.Point(33, 603);
+            this.groupBox7.Location = new System.Drawing.Point(33, 644);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(111, 113);
             this.groupBox7.TabIndex = 14;
@@ -805,7 +819,7 @@
             this.groupBox8.BackColor = System.Drawing.Color.White;
             this.groupBox8.Controls.Add(this.splitContainer7);
             this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox8.Location = new System.Drawing.Point(182, 603);
+            this.groupBox8.Location = new System.Drawing.Point(182, 644);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(111, 113);
             this.groupBox8.TabIndex = 13;
@@ -895,7 +909,7 @@
             this.groupBox9.BackColor = System.Drawing.Color.White;
             this.groupBox9.Controls.Add(this.splitContainer8);
             this.groupBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox9.Location = new System.Drawing.Point(340, 603);
+            this.groupBox9.Location = new System.Drawing.Point(340, 644);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(111, 113);
             this.groupBox9.TabIndex = 15;
@@ -985,7 +999,7 @@
             this.groupBox10.BackColor = System.Drawing.Color.White;
             this.groupBox10.Controls.Add(this.splitContainer9);
             this.groupBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox10.Location = new System.Drawing.Point(490, 600);
+            this.groupBox10.Location = new System.Drawing.Point(490, 641);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(111, 113);
             this.groupBox10.TabIndex = 16;
@@ -1120,7 +1134,7 @@
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label53.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label53.Location = new System.Drawing.Point(410, 88);
+            this.label53.Location = new System.Drawing.Point(410, 181);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(82, 19);
             this.label53.TabIndex = 20;
@@ -1130,7 +1144,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(411, 30);
+            this.button1.Location = new System.Drawing.Point(413, 206);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 44);
             this.button1.TabIndex = 21;
@@ -1142,7 +1156,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.IndianRed;
             this.button2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(522, 30);
+            this.button2.Location = new System.Drawing.Point(524, 206);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 44);
             this.button2.TabIndex = 22;
@@ -1153,7 +1167,7 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(633, 30);
+            this.button3.Location = new System.Drawing.Point(635, 206);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 44);
             this.button3.TabIndex = 23;
@@ -1164,23 +1178,179 @@
             // 
             this.button4.BackColor = System.Drawing.Color.IndianRed;
             this.button4.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(744, 30);
+            this.button4.Location = new System.Drawing.Point(746, 206);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(105, 44);
             this.button4.TabIndex = 24;
             this.button4.Text = "Ciclo 2 Fase Ejecución";
             this.button4.UseVisualStyleBackColor = false;
             // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label54.Location = new System.Drawing.Point(410, 13);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(122, 19);
+            this.label54.TabIndex = 25;
+            this.label54.Text = "Ingreso de datos";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(416, 38);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(63, 14);
+            this.label55.TabIndex = 26;
+            this.label55.Text = "Instrucción:";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(416, 62);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(94, 14);
+            this.label56.TabIndex = 28;
+            this.label56.Text = "Cod. de operación";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(516, 68);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(135, 22);
+            this.textBox4.TabIndex = 27;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Location = new System.Drawing.Point(416, 76);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(95, 14);
+            this.label57.TabIndex = 29;
+            this.label57.Text = "Dir. de instrucción";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(416, 99);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(70, 14);
+            this.label58.TabIndex = 31;
+            this.label58.Text = "Dir. del dato:";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(516, 96);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(135, 22);
+            this.textBox5.TabIndex = 30;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Location = new System.Drawing.Point(416, 127);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(78, 14);
+            this.label59.TabIndex = 33;
+            this.label59.Text = "Valor del dato:";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(516, 124);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(135, 22);
+            this.textBox6.TabIndex = 32;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Location = new System.Drawing.Point(416, 155);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(78, 14);
+            this.label60.TabIndex = 35;
+            this.label60.Text = "Valor del dato:";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(516, 152);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(135, 22);
+            this.textBox7.TabIndex = 34;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Location = new System.Drawing.Point(657, 71);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(35, 14);
+            this.label61.TabIndex = 36;
+            this.label61.Text = "XXXX";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.Location = new System.Drawing.Point(657, 99);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(35, 14);
+            this.label62.TabIndex = 37;
+            this.label62.Text = "XXXX";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.Location = new System.Drawing.Point(657, 127);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(35, 14);
+            this.label63.TabIndex = 38;
+            this.label63.Text = "XXXX";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.Location = new System.Drawing.Point(657, 155);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(35, 14);
+            this.label64.TabIndex = 39;
+            this.label64.Text = "XXXX";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(867, 848);
+            this.ClientSize = new System.Drawing.Size(883, 848);
+            this.Controls.Add(this.label64);
+            this.Controls.Add(this.label63);
+            this.Controls.Add(this.label62);
+            this.Controls.Add(this.label61);
+            this.Controls.Add(this.label60);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.label59);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.label58);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label57);
+            this.Controls.Add(this.label56);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label55);
+            this.Controls.Add(this.label54);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label53);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label_E);
             this.Controls.Add(this.label52);
             this.Controls.Add(this.checkedListBox2);
@@ -1194,7 +1364,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.RightToLeftLayout = true;
             this.Text = "Form1";
@@ -1356,6 +1526,21 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label64;
     }
 }
 
