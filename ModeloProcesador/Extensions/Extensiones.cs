@@ -51,5 +51,33 @@ namespace ModeloProcesador
             return caracteresDespuesDeComa > 2;
         }
 
+        public static string InterpretarDirecciones(string DirInstruccion, string DirDato, string ValorDato, string ValorA)
+        {
+            var respuesta = "";
+
+            var instruccion = InstruccionSetList.ProgramaAEjecutar.Where(X => X.Direccion == DirInstruccion);
+
+            return respuesta;
+        }
+        public static string Asignar(this string valor, string predeterminado)
+        {
+            return string.IsNullOrEmpty(valor) ? predeterminado : valor;
+        }
+
+        public static bool IsNOTNullOrEmpty<T>(this List<T> lista)
+        {
+            return lista != null && lista.Any();
+        }
+        
+        public static bool IsNullOrEmpty<T>(this List<T> lista)
+        {
+            return lista == null || !lista.Any();
+        }
+
+        public static string Vacio(this string Valor)
+        {
+            var salida = string.IsNullOrEmpty(Valor) ? "XXXX" : Valor;
+            return salida;
+        }
     }
 }

@@ -29,107 +29,106 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label_SalidasResaltadas = new System.Windows.Forms.Label();
+            this.textBox_Codsalida_UC = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.checked_UC_Entrada = new System.Windows.Forms.CheckedListBox();
+            this.textBox_Salida_UC = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox_DireccionSelecc_UC = new System.Windows.Forms.TextBox();
+            this.textBox_instruccion = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.text_RI_IZQ_Salida_0 = new System.Windows.Forms.TextBox();
+            this.text_RI_IZQ_Entrada_0 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.lbl_ri_ck0_slave = new System.Windows.Forms.Label();
-            this.lbl_ri_ck0_master = new System.Windows.Forms.Label();
+            this.text_RI_IZQ_Salida_1 = new System.Windows.Forms.TextBox();
+            this.text_RI_IZQ_Entrada_1 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.lbl_ri_ck1_slave = new System.Windows.Forms.Label();
-            this.lbl_ri_ck1_master = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.text_RI_DER_Salida_0 = new System.Windows.Forms.TextBox();
+            this.text_RI_DER_Entrada_0 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.text_RI_DER_Salida_1 = new System.Windows.Forms.TextBox();
+            this.text_RI_DER_Entrada_1 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+            this.text_RL_Salida_0 = new System.Windows.Forms.TextBox();
+            this.text_RL_Entrada_0 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.text_RL_Entrada_1 = new System.Windows.Forms.TextBox();
+            this.text_RL_Salida_1 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.text_RE_Salida_0 = new System.Windows.Forms.TextBox();
+            this.text_RE_Entrada_0 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.text_RE_Salida_1 = new System.Windows.Forms.TextBox();
+            this.text_RE_Entrada_1 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.splitContainer5 = new System.Windows.Forms.SplitContainer();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
+            this.text_UAL_X = new System.Windows.Forms.TextBox();
+            this.text_UAL_Y = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.splitContainer6 = new System.Windows.Forms.SplitContainer();
+            this.text_A_Salida_0 = new System.Windows.Forms.TextBox();
+            this.text_A_Entrada_0 = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.text_A_Salida_1 = new System.Windows.Forms.TextBox();
+            this.text_A_Entrada_1 = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.splitContainer7 = new System.Windows.Forms.SplitContainer();
+            this.text_B_Entrada_0 = new System.Windows.Forms.TextBox();
+            this.text_B_Salida_0 = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
+            this.text_B_Salida_1 = new System.Windows.Forms.TextBox();
+            this.text_B_Entrada_1 = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.splitContainer8 = new System.Windows.Forms.SplitContainer();
+            this.text_IP_Salida_0 = new System.Windows.Forms.TextBox();
+            this.text_IP_Entrada_0 = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
+            this.text_IP_Salida_1 = new System.Windows.Forms.TextBox();
+            this.text_IP_Entrada_1 = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.splitContainer9 = new System.Windows.Forms.SplitContainer();
+            this.text_RDI_Salida_0 = new System.Windows.Forms.TextBox();
+            this.text_RDI_Entrada_0 = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
+            this.text_RDI_Salida_1 = new System.Windows.Forms.TextBox();
+            this.text_RDI_Entrada_1 = new System.Windows.Forms.TextBox();
             this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label_E = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
+            this.checked_salidas = new System.Windows.Forms.CheckedListBox();
+            this.label_ModoDireccionamiento = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label59 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label60 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.lbl_AM = new System.Windows.Forms.Label();
+            this.lbl_LE = new System.Windows.Forms.Label();
+            this.lbl_BusDireccion = new System.Windows.Forms.Label();
+            this.checked_salidas_instr = new System.Windows.Forms.CheckedListBox();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.lbl_RDA1 = new System.Windows.Forms.Label();
+            this.lbl_RDA2 = new System.Windows.Forms.Label();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.splitContainer10 = new System.Windows.Forms.SplitContainer();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -176,22 +175,50 @@
             this.splitContainer9.Panel1.SuspendLayout();
             this.splitContainer9.Panel2.SuspendLayout();
             this.splitContainer9.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer10)).BeginInit();
+            this.splitContainer10.Panel1.SuspendLayout();
+            this.splitContainer10.Panel2.SuspendLayout();
+            this.splitContainer10.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.label_SalidasResaltadas);
+            this.groupBox1.Controls.Add(this.textBox_Codsalida_UC);
             this.groupBox1.Controls.Add(this.listBox1);
-            this.groupBox1.Controls.Add(this.checkedListBox1);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.checked_UC_Entrada);
+            this.groupBox1.Controls.Add(this.textBox_Salida_UC);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.textBox_DireccionSelecc_UC);
             this.groupBox1.Location = new System.Drawing.Point(24, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(365, 334);
+            this.groupBox1.Size = new System.Drawing.Size(365, 350);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "UC";
+            // 
+            // label_SalidasResaltadas
+            // 
+            this.label_SalidasResaltadas.AutoSize = true;
+            this.label_SalidasResaltadas.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_SalidasResaltadas.Location = new System.Drawing.Point(3, 328);
+            this.label_SalidasResaltadas.Name = "label_SalidasResaltadas";
+            this.label_SalidasResaltadas.Size = new System.Drawing.Size(81, 13);
+            this.label_SalidasResaltadas.TabIndex = 14;
+            this.label_SalidasResaltadas.Text = "Salidas activas: ";
+            // 
+            // textBox_Codsalida_UC
+            // 
+            this.textBox_Codsalida_UC.Enabled = false;
+            this.textBox_Codsalida_UC.Location = new System.Drawing.Point(224, 299);
+            this.textBox_Codsalida_UC.Name = "textBox_Codsalida_UC";
+            this.textBox_Codsalida_UC.Size = new System.Drawing.Size(55, 22);
+            this.textBox_Codsalida_UC.TabIndex = 13;
             // 
             // listBox1
             // 
@@ -220,10 +247,10 @@
             this.listBox1.Size = new System.Drawing.Size(135, 259);
             this.listBox1.TabIndex = 12;
             // 
-            // checkedListBox1
+            // checked_UC_Entrada
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
+            this.checked_UC_Entrada.FormattingEnabled = true;
+            this.checked_UC_Entrada.Items.AddRange(new object[] {
             "0000",
             "0001",
             "0010",
@@ -240,17 +267,18 @@
             "1101",
             "1110",
             "1111"});
-            this.checkedListBox1.Location = new System.Drawing.Point(6, 17);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(55, 276);
-            this.checkedListBox1.TabIndex = 12;
+            this.checked_UC_Entrada.Location = new System.Drawing.Point(6, 17);
+            this.checked_UC_Entrada.Name = "checked_UC_Entrada";
+            this.checked_UC_Entrada.Size = new System.Drawing.Size(55, 276);
+            this.checked_UC_Entrada.TabIndex = 12;
             // 
-            // textBox3
+            // textBox_Salida_UC
             // 
-            this.textBox3.Location = new System.Drawing.Point(6, 299);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(55, 22);
-            this.textBox3.TabIndex = 12;
+            this.textBox_Salida_UC.Enabled = false;
+            this.textBox_Salida_UC.Location = new System.Drawing.Point(6, 299);
+            this.textBox_Salida_UC.Name = "textBox_Salida_UC";
+            this.textBox_Salida_UC.Size = new System.Drawing.Size(55, 22);
+            this.textBox_Salida_UC.TabIndex = 12;
             // 
             // label2
             // 
@@ -261,28 +289,31 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "000000000000000000000000";
             // 
-            // textBox1
+            // textBox_DireccionSelecc_UC
             // 
-            this.textBox1.Location = new System.Drawing.Point(67, 299);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 22);
-            this.textBox1.TabIndex = 7;
+            this.textBox_DireccionSelecc_UC.Enabled = false;
+            this.textBox_DireccionSelecc_UC.Location = new System.Drawing.Point(67, 299);
+            this.textBox_DireccionSelecc_UC.Name = "textBox_DireccionSelecc_UC";
+            this.textBox_DireccionSelecc_UC.Size = new System.Drawing.Size(151, 22);
+            this.textBox_DireccionSelecc_UC.TabIndex = 7;
             // 
-            // textBox2
+            // textBox_instruccion
             // 
-            this.textBox2.Location = new System.Drawing.Point(516, 35);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(135, 22);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox_instruccion.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBox_instruccion.Location = new System.Drawing.Point(84, 25);
+            this.textBox_instruccion.Name = "textBox_instruccion";
+            this.textBox_instruccion.Size = new System.Drawing.Size(315, 26);
+            this.textBox_instruccion.TabIndex = 8;
+            this.textBox_instruccion.Text = "SUBA,[1101]";
+            this.textBox_instruccion.TextChanged += new System.EventHandler(this.textBox_instruccion_TextChanged);
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.splitContainer1);
-            this.groupBox2.Location = new System.Drawing.Point(414, 260);
+            this.groupBox2.Location = new System.Drawing.Point(483, 312);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(111, 113);
+            this.groupBox2.Size = new System.Drawing.Size(118, 113);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "RI";
@@ -296,18 +327,39 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.splitContainer1.Panel1.Controls.Add(this.text_RI_IZQ_Salida_0);
+            this.splitContainer1.Panel1.Controls.Add(this.text_RI_IZQ_Entrada_0);
             this.splitContainer1.Panel1.Controls.Add(this.label7);
-            this.splitContainer1.Panel1.Controls.Add(this.lbl_ri_ck0_slave);
-            this.splitContainer1.Panel1.Controls.Add(this.lbl_ri_ck0_master);
+            this.splitContainer1.Panel1.Margin = new System.Windows.Forms.Padding(3, 0, 0, 0);
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.text_RI_IZQ_Salida_1);
+            this.splitContainer1.Panel2.Controls.Add(this.text_RI_IZQ_Entrada_1);
             this.splitContainer1.Panel2.Controls.Add(this.label8);
-            this.splitContainer1.Panel2.Controls.Add(this.lbl_ri_ck1_slave);
-            this.splitContainer1.Panel2.Controls.Add(this.lbl_ri_ck1_master);
-            this.splitContainer1.Size = new System.Drawing.Size(105, 92);
-            this.splitContainer1.SplitterDistance = 52;
+            this.splitContainer1.Size = new System.Drawing.Size(112, 92);
+            this.splitContainer1.SplitterDistance = 54;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // text_RI_IZQ_Salida_0
+            // 
+            this.text_RI_IZQ_Salida_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RI_IZQ_Salida_0.Enabled = false;
+            this.text_RI_IZQ_Salida_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RI_IZQ_Salida_0.Location = new System.Drawing.Point(3, 67);
+            this.text_RI_IZQ_Salida_0.Name = "text_RI_IZQ_Salida_0";
+            this.text_RI_IZQ_Salida_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RI_IZQ_Salida_0.TabIndex = 51;
+            // 
+            // text_RI_IZQ_Entrada_0
+            // 
+            this.text_RI_IZQ_Entrada_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RI_IZQ_Entrada_0.Enabled = false;
+            this.text_RI_IZQ_Entrada_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RI_IZQ_Entrada_0.Location = new System.Drawing.Point(3, 0);
+            this.text_RI_IZQ_Entrada_0.Name = "text_RI_IZQ_Entrada_0";
+            this.text_RI_IZQ_Entrada_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RI_IZQ_Entrada_0.TabIndex = 51;
             // 
             // label7
             // 
@@ -319,23 +371,25 @@
             this.label7.TabIndex = 2;
             this.label7.Text = "Ck=0";
             // 
-            // lbl_ri_ck0_slave
+            // text_RI_IZQ_Salida_1
             // 
-            this.lbl_ri_ck0_slave.AutoSize = true;
-            this.lbl_ri_ck0_slave.Location = new System.Drawing.Point(3, 67);
-            this.lbl_ri_ck0_slave.Name = "lbl_ri_ck0_slave";
-            this.lbl_ri_ck0_slave.Size = new System.Drawing.Size(31, 14);
-            this.lbl_ri_ck0_slave.TabIndex = 1;
-            this.lbl_ri_ck0_slave.Text = "xxxx";
+            this.text_RI_IZQ_Salida_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.text_RI_IZQ_Salida_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RI_IZQ_Salida_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RI_IZQ_Salida_1.Location = new System.Drawing.Point(3, 67);
+            this.text_RI_IZQ_Salida_1.Name = "text_RI_IZQ_Salida_1";
+            this.text_RI_IZQ_Salida_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RI_IZQ_Salida_1.TabIndex = 51;
             // 
-            // lbl_ri_ck0_master
+            // text_RI_IZQ_Entrada_1
             // 
-            this.lbl_ri_ck0_master.AutoSize = true;
-            this.lbl_ri_ck0_master.Location = new System.Drawing.Point(3, 11);
-            this.lbl_ri_ck0_master.Name = "lbl_ri_ck0_master";
-            this.lbl_ri_ck0_master.Size = new System.Drawing.Size(31, 14);
-            this.lbl_ri_ck0_master.TabIndex = 0;
-            this.lbl_ri_ck0_master.Text = "xxxx";
+            this.text_RI_IZQ_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RI_IZQ_Entrada_1.Enabled = false;
+            this.text_RI_IZQ_Entrada_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RI_IZQ_Entrada_1.Location = new System.Drawing.Point(3, 0);
+            this.text_RI_IZQ_Entrada_1.Name = "text_RI_IZQ_Entrada_1";
+            this.text_RI_IZQ_Entrada_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RI_IZQ_Entrada_1.TabIndex = 52;
             // 
             // label8
             // 
@@ -347,29 +401,11 @@
             this.label8.TabIndex = 5;
             this.label8.Text = "Ck=1";
             // 
-            // lbl_ri_ck1_slave
-            // 
-            this.lbl_ri_ck1_slave.AutoSize = true;
-            this.lbl_ri_ck1_slave.Location = new System.Drawing.Point(3, 67);
-            this.lbl_ri_ck1_slave.Name = "lbl_ri_ck1_slave";
-            this.lbl_ri_ck1_slave.Size = new System.Drawing.Size(31, 14);
-            this.lbl_ri_ck1_slave.TabIndex = 4;
-            this.lbl_ri_ck1_slave.Text = "xxxx";
-            // 
-            // lbl_ri_ck1_master
-            // 
-            this.lbl_ri_ck1_master.AutoSize = true;
-            this.lbl_ri_ck1_master.Location = new System.Drawing.Point(3, 11);
-            this.lbl_ri_ck1_master.Name = "lbl_ri_ck1_master";
-            this.lbl_ri_ck1_master.Size = new System.Drawing.Size(31, 14);
-            this.lbl_ri_ck1_master.TabIndex = 3;
-            this.lbl_ri_ck1_master.Text = "xxxx";
-            // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.White;
             this.groupBox3.Controls.Add(this.splitContainer2);
-            this.groupBox3.Location = new System.Drawing.Point(531, 260);
+            this.groupBox3.Location = new System.Drawing.Point(607, 312);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(111, 113);
             this.groupBox3.TabIndex = 11;
@@ -385,18 +421,38 @@
             // splitContainer2.Panel1
             // 
             this.splitContainer2.Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.splitContainer2.Panel1.Controls.Add(this.text_RI_DER_Salida_0);
+            this.splitContainer2.Panel1.Controls.Add(this.text_RI_DER_Entrada_0);
             this.splitContainer2.Panel1.Controls.Add(this.label5);
-            this.splitContainer2.Panel1.Controls.Add(this.label6);
-            this.splitContainer2.Panel1.Controls.Add(this.label9);
             // 
             // splitContainer2.Panel2
             // 
+            this.splitContainer2.Panel2.Controls.Add(this.text_RI_DER_Salida_1);
+            this.splitContainer2.Panel2.Controls.Add(this.text_RI_DER_Entrada_1);
             this.splitContainer2.Panel2.Controls.Add(this.label10);
-            this.splitContainer2.Panel2.Controls.Add(this.label11);
-            this.splitContainer2.Panel2.Controls.Add(this.label12);
             this.splitContainer2.Size = new System.Drawing.Size(105, 92);
             this.splitContainer2.SplitterDistance = 52;
             this.splitContainer2.TabIndex = 0;
+            // 
+            // text_RI_DER_Salida_0
+            // 
+            this.text_RI_DER_Salida_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RI_DER_Salida_0.Enabled = false;
+            this.text_RI_DER_Salida_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RI_DER_Salida_0.Location = new System.Drawing.Point(2, 66);
+            this.text_RI_DER_Salida_0.Name = "text_RI_DER_Salida_0";
+            this.text_RI_DER_Salida_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RI_DER_Salida_0.TabIndex = 51;
+            // 
+            // text_RI_DER_Entrada_0
+            // 
+            this.text_RI_DER_Entrada_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RI_DER_Entrada_0.Enabled = false;
+            this.text_RI_DER_Entrada_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RI_DER_Entrada_0.Location = new System.Drawing.Point(2, 0);
+            this.text_RI_DER_Entrada_0.Name = "text_RI_DER_Entrada_0";
+            this.text_RI_DER_Entrada_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RI_DER_Entrada_0.TabIndex = 51;
             // 
             // label5
             // 
@@ -408,23 +464,25 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "Ck=0";
             // 
-            // label6
+            // text_RI_DER_Salida_1
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 67);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 14);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "xxxx";
+            this.text_RI_DER_Salida_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.text_RI_DER_Salida_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RI_DER_Salida_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RI_DER_Salida_1.Location = new System.Drawing.Point(0, 66);
+            this.text_RI_DER_Salida_1.Name = "text_RI_DER_Salida_1";
+            this.text_RI_DER_Salida_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RI_DER_Salida_1.TabIndex = 51;
             // 
-            // label9
+            // text_RI_DER_Entrada_1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 11);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(31, 14);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "xxxx";
+            this.text_RI_DER_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RI_DER_Entrada_1.Enabled = false;
+            this.text_RI_DER_Entrada_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RI_DER_Entrada_1.Location = new System.Drawing.Point(0, 0);
+            this.text_RI_DER_Entrada_1.Name = "text_RI_DER_Entrada_1";
+            this.text_RI_DER_Entrada_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RI_DER_Entrada_1.TabIndex = 51;
             // 
             // label10
             // 
@@ -436,30 +494,12 @@
             this.label10.TabIndex = 5;
             this.label10.Text = "Ck=1";
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(3, 67);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(31, 14);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "xxxx";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(3, 11);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(31, 14);
-            this.label12.TabIndex = 3;
-            this.label12.Text = "xxxx";
-            // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.White;
             this.groupBox4.Controls.Add(this.splitContainer3);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(302, 379);
+            this.groupBox4.Location = new System.Drawing.Point(349, 397);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(111, 113);
             this.groupBox4.TabIndex = 11;
@@ -475,18 +515,38 @@
             // splitContainer3.Panel1
             // 
             this.splitContainer3.Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.splitContainer3.Panel1.Controls.Add(this.text_RL_Salida_0);
+            this.splitContainer3.Panel1.Controls.Add(this.text_RL_Entrada_0);
             this.splitContainer3.Panel1.Controls.Add(this.label3);
-            this.splitContainer3.Panel1.Controls.Add(this.label13);
-            this.splitContainer3.Panel1.Controls.Add(this.label14);
             // 
             // splitContainer3.Panel2
             // 
+            this.splitContainer3.Panel2.Controls.Add(this.text_RL_Entrada_1);
+            this.splitContainer3.Panel2.Controls.Add(this.text_RL_Salida_1);
             this.splitContainer3.Panel2.Controls.Add(this.label15);
-            this.splitContainer3.Panel2.Controls.Add(this.label16);
-            this.splitContainer3.Panel2.Controls.Add(this.label17);
             this.splitContainer3.Size = new System.Drawing.Size(105, 92);
             this.splitContainer3.SplitterDistance = 52;
             this.splitContainer3.TabIndex = 0;
+            // 
+            // text_RL_Salida_0
+            // 
+            this.text_RL_Salida_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RL_Salida_0.Enabled = false;
+            this.text_RL_Salida_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RL_Salida_0.Location = new System.Drawing.Point(2, 66);
+            this.text_RL_Salida_0.Name = "text_RL_Salida_0";
+            this.text_RL_Salida_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RL_Salida_0.TabIndex = 51;
+            // 
+            // text_RL_Entrada_0
+            // 
+            this.text_RL_Entrada_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RL_Entrada_0.Enabled = false;
+            this.text_RL_Entrada_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RL_Entrada_0.Location = new System.Drawing.Point(2, 0);
+            this.text_RL_Entrada_0.Name = "text_RL_Entrada_0";
+            this.text_RL_Entrada_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RL_Entrada_0.TabIndex = 50;
             // 
             // label3
             // 
@@ -498,23 +558,25 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Ck=0";
             // 
-            // label13
+            // text_RL_Entrada_1
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(3, 67);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(35, 16);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "xxxx";
+            this.text_RL_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RL_Entrada_1.Enabled = false;
+            this.text_RL_Entrada_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RL_Entrada_1.Location = new System.Drawing.Point(0, 0);
+            this.text_RL_Entrada_1.Name = "text_RL_Entrada_1";
+            this.text_RL_Entrada_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RL_Entrada_1.TabIndex = 52;
             // 
-            // label14
+            // text_RL_Salida_1
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 11);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(35, 16);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "xxxx";
+            this.text_RL_Salida_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.text_RL_Salida_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RL_Salida_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RL_Salida_1.Location = new System.Drawing.Point(0, 66);
+            this.text_RL_Salida_1.Name = "text_RL_Salida_1";
+            this.text_RL_Salida_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RL_Salida_1.TabIndex = 51;
             // 
             // label15
             // 
@@ -526,35 +588,17 @@
             this.label15.TabIndex = 5;
             this.label15.Text = "Ck=1";
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(3, 67);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(35, 16);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "xxxx";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 11);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(35, 16);
-            this.label17.TabIndex = 3;
-            this.label17.Text = "xxxx";
-            // 
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.White;
             this.groupBox5.Controls.Add(this.splitContainer4);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(179, 503);
+            this.groupBox5.Location = new System.Drawing.Point(179, 520);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(111, 113);
             this.groupBox5.TabIndex = 12;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "RL";
+            this.groupBox5.Text = "RE";
             // 
             // splitContainer4
             // 
@@ -565,18 +609,38 @@
             // splitContainer4.Panel1
             // 
             this.splitContainer4.Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.splitContainer4.Panel1.Controls.Add(this.text_RE_Salida_0);
+            this.splitContainer4.Panel1.Controls.Add(this.text_RE_Entrada_0);
             this.splitContainer4.Panel1.Controls.Add(this.label1);
-            this.splitContainer4.Panel1.Controls.Add(this.label4);
-            this.splitContainer4.Panel1.Controls.Add(this.label18);
             // 
             // splitContainer4.Panel2
             // 
+            this.splitContainer4.Panel2.Controls.Add(this.text_RE_Salida_1);
+            this.splitContainer4.Panel2.Controls.Add(this.text_RE_Entrada_1);
             this.splitContainer4.Panel2.Controls.Add(this.label19);
-            this.splitContainer4.Panel2.Controls.Add(this.label20);
-            this.splitContainer4.Panel2.Controls.Add(this.label21);
             this.splitContainer4.Size = new System.Drawing.Size(105, 92);
             this.splitContainer4.SplitterDistance = 52;
             this.splitContainer4.TabIndex = 0;
+            // 
+            // text_RE_Salida_0
+            // 
+            this.text_RE_Salida_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RE_Salida_0.Enabled = false;
+            this.text_RE_Salida_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RE_Salida_0.Location = new System.Drawing.Point(3, 65);
+            this.text_RE_Salida_0.Name = "text_RE_Salida_0";
+            this.text_RE_Salida_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RE_Salida_0.TabIndex = 52;
+            // 
+            // text_RE_Entrada_0
+            // 
+            this.text_RE_Entrada_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RE_Entrada_0.Enabled = false;
+            this.text_RE_Entrada_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RE_Entrada_0.Location = new System.Drawing.Point(3, 0);
+            this.text_RE_Entrada_0.Name = "text_RE_Entrada_0";
+            this.text_RE_Entrada_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RE_Entrada_0.TabIndex = 51;
             // 
             // label1
             // 
@@ -588,23 +652,25 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Ck=0";
             // 
-            // label4
+            // text_RE_Salida_1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 67);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 16);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "xxxx";
+            this.text_RE_Salida_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.text_RE_Salida_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RE_Salida_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RE_Salida_1.Location = new System.Drawing.Point(0, 66);
+            this.text_RE_Salida_1.Name = "text_RE_Salida_1";
+            this.text_RE_Salida_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RE_Salida_1.TabIndex = 53;
             // 
-            // label18
+            // text_RE_Entrada_1
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 11);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(35, 16);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "xxxx";
+            this.text_RE_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RE_Entrada_1.Enabled = false;
+            this.text_RE_Entrada_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RE_Entrada_1.Location = new System.Drawing.Point(0, 0);
+            this.text_RE_Entrada_1.Name = "text_RE_Entrada_1";
+            this.text_RE_Entrada_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RE_Entrada_1.TabIndex = 51;
             // 
             // label19
             // 
@@ -616,35 +682,17 @@
             this.label19.TabIndex = 5;
             this.label19.Text = "Ck=1";
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 67);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(35, 16);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "xxxx";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(3, 11);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(35, 16);
-            this.label21.TabIndex = 3;
-            this.label21.Text = "xxxx";
-            // 
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.White;
             this.groupBox6.Controls.Add(this.splitContainer5);
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(30, 503);
+            this.groupBox6.Location = new System.Drawing.Point(30, 520);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(111, 113);
             this.groupBox6.TabIndex = 13;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "RL";
+            this.groupBox6.Text = "UAL";
             // 
             // splitContainer5
             // 
@@ -655,86 +703,86 @@
             // splitContainer5.Panel1
             // 
             this.splitContainer5.Panel1.BackColor = System.Drawing.Color.Gainsboro;
-            this.splitContainer5.Panel1.Controls.Add(this.label22);
-            this.splitContainer5.Panel1.Controls.Add(this.label23);
-            this.splitContainer5.Panel1.Controls.Add(this.label24);
+            this.splitContainer5.Panel1.Controls.Add(this.text_UAL_X);
             // 
             // splitContainer5.Panel2
             // 
-            this.splitContainer5.Panel2.Controls.Add(this.label25);
-            this.splitContainer5.Panel2.Controls.Add(this.label26);
+            this.splitContainer5.Panel2.Controls.Add(this.text_UAL_Y);
+            this.splitContainer5.Panel2.Controls.Add(this.label24);
+            this.splitContainer5.Panel2.Controls.Add(this.label23);
+            this.splitContainer5.Panel2.Controls.Add(this.label22);
             this.splitContainer5.Panel2.Controls.Add(this.label27);
             this.splitContainer5.Size = new System.Drawing.Size(105, 92);
             this.splitContainer5.SplitterDistance = 52;
             this.splitContainer5.TabIndex = 0;
             // 
-            // label22
+            // text_UAL_X
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Calibri Light", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(14, 38);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(29, 13);
-            this.label22.TabIndex = 2;
-            this.label22.Text = "Ck=0";
+            this.text_UAL_X.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_UAL_X.Enabled = false;
+            this.text_UAL_X.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_UAL_X.Location = new System.Drawing.Point(0, 0);
+            this.text_UAL_X.Name = "text_UAL_X";
+            this.text_UAL_X.Size = new System.Drawing.Size(49, 23);
+            this.text_UAL_X.TabIndex = 51;
             // 
-            // label23
+            // text_UAL_Y
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 67);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(35, 16);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "xxxx";
+            this.text_UAL_Y.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_UAL_Y.Enabled = false;
+            this.text_UAL_Y.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_UAL_Y.Location = new System.Drawing.Point(0, 0);
+            this.text_UAL_Y.Name = "text_UAL_Y";
+            this.text_UAL_Y.Size = new System.Drawing.Size(49, 23);
+            this.text_UAL_Y.TabIndex = 51;
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(3, 11);
+            this.label24.Location = new System.Drawing.Point(6, 72);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(35, 16);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "xxxx";
+            this.label24.Size = new System.Drawing.Size(17, 16);
+            this.label24.TabIndex = 41;
+            this.label24.Text = "C";
             // 
-            // label25
+            // label23
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Calibri Light", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(17, 38);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(29, 13);
-            this.label25.TabIndex = 5;
-            this.label25.Text = "Ck=1";
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(6, 56);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(17, 16);
+            this.label23.TabIndex = 5;
+            this.label23.Text = "V";
             // 
-            // label26
+            // label22
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(3, 67);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(35, 16);
-            this.label26.TabIndex = 4;
-            this.label26.Text = "xxxx";
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(6, 40);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(16, 16);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "Z";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(3, 11);
+            this.label27.Location = new System.Drawing.Point(6, 26);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(35, 16);
+            this.label27.Size = new System.Drawing.Size(17, 16);
             this.label27.TabIndex = 3;
-            this.label27.Text = "xxxx";
+            this.label27.Text = "S";
             // 
             // groupBox7
             // 
             this.groupBox7.BackColor = System.Drawing.Color.White;
             this.groupBox7.Controls.Add(this.splitContainer6);
             this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox7.Location = new System.Drawing.Point(33, 644);
+            this.groupBox7.Location = new System.Drawing.Point(33, 661);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(111, 113);
             this.groupBox7.TabIndex = 14;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "RL";
+            this.groupBox7.Text = "A";
             // 
             // splitContainer6
             // 
@@ -745,18 +793,38 @@
             // splitContainer6.Panel1
             // 
             this.splitContainer6.Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.splitContainer6.Panel1.Controls.Add(this.text_A_Salida_0);
+            this.splitContainer6.Panel1.Controls.Add(this.text_A_Entrada_0);
             this.splitContainer6.Panel1.Controls.Add(this.label28);
-            this.splitContainer6.Panel1.Controls.Add(this.label29);
-            this.splitContainer6.Panel1.Controls.Add(this.label30);
             // 
             // splitContainer6.Panel2
             // 
+            this.splitContainer6.Panel2.Controls.Add(this.text_A_Salida_1);
+            this.splitContainer6.Panel2.Controls.Add(this.text_A_Entrada_1);
             this.splitContainer6.Panel2.Controls.Add(this.label31);
-            this.splitContainer6.Panel2.Controls.Add(this.label32);
-            this.splitContainer6.Panel2.Controls.Add(this.label33);
             this.splitContainer6.Size = new System.Drawing.Size(105, 92);
             this.splitContainer6.SplitterDistance = 52;
             this.splitContainer6.TabIndex = 0;
+            // 
+            // text_A_Salida_0
+            // 
+            this.text_A_Salida_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_A_Salida_0.Enabled = false;
+            this.text_A_Salida_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_A_Salida_0.Location = new System.Drawing.Point(3, 66);
+            this.text_A_Salida_0.Name = "text_A_Salida_0";
+            this.text_A_Salida_0.Size = new System.Drawing.Size(49, 23);
+            this.text_A_Salida_0.TabIndex = 51;
+            // 
+            // text_A_Entrada_0
+            // 
+            this.text_A_Entrada_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_A_Entrada_0.Enabled = false;
+            this.text_A_Entrada_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_A_Entrada_0.Location = new System.Drawing.Point(3, 0);
+            this.text_A_Entrada_0.Name = "text_A_Entrada_0";
+            this.text_A_Entrada_0.Size = new System.Drawing.Size(49, 23);
+            this.text_A_Entrada_0.TabIndex = 51;
             // 
             // label28
             // 
@@ -768,23 +836,25 @@
             this.label28.TabIndex = 2;
             this.label28.Text = "Ck=0";
             // 
-            // label29
+            // text_A_Salida_1
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(3, 67);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(35, 16);
-            this.label29.TabIndex = 1;
-            this.label29.Text = "xxxx";
+            this.text_A_Salida_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.text_A_Salida_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_A_Salida_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_A_Salida_1.Location = new System.Drawing.Point(0, 66);
+            this.text_A_Salida_1.Name = "text_A_Salida_1";
+            this.text_A_Salida_1.Size = new System.Drawing.Size(49, 23);
+            this.text_A_Salida_1.TabIndex = 51;
             // 
-            // label30
+            // text_A_Entrada_1
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(3, 11);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(35, 16);
-            this.label30.TabIndex = 0;
-            this.label30.Text = "xxxx";
+            this.text_A_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_A_Entrada_1.Enabled = false;
+            this.text_A_Entrada_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_A_Entrada_1.Location = new System.Drawing.Point(0, 0);
+            this.text_A_Entrada_1.Name = "text_A_Entrada_1";
+            this.text_A_Entrada_1.Size = new System.Drawing.Size(49, 23);
+            this.text_A_Entrada_1.TabIndex = 51;
             // 
             // label31
             // 
@@ -796,35 +866,17 @@
             this.label31.TabIndex = 5;
             this.label31.Text = "Ck=1";
             // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(3, 67);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(35, 16);
-            this.label32.TabIndex = 4;
-            this.label32.Text = "xxxx";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(3, 11);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(35, 16);
-            this.label33.TabIndex = 3;
-            this.label33.Text = "xxxx";
-            // 
             // groupBox8
             // 
             this.groupBox8.BackColor = System.Drawing.Color.White;
             this.groupBox8.Controls.Add(this.splitContainer7);
             this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox8.Location = new System.Drawing.Point(182, 644);
+            this.groupBox8.Location = new System.Drawing.Point(182, 661);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(111, 113);
             this.groupBox8.TabIndex = 13;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "RL";
+            this.groupBox8.Text = "B";
             // 
             // splitContainer7
             // 
@@ -835,18 +887,39 @@
             // splitContainer7.Panel1
             // 
             this.splitContainer7.Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.splitContainer7.Panel1.Controls.Add(this.text_B_Entrada_0);
+            this.splitContainer7.Panel1.Controls.Add(this.text_B_Salida_0);
             this.splitContainer7.Panel1.Controls.Add(this.label34);
-            this.splitContainer7.Panel1.Controls.Add(this.label35);
-            this.splitContainer7.Panel1.Controls.Add(this.label36);
             // 
             // splitContainer7.Panel2
             // 
+            this.splitContainer7.Panel2.Controls.Add(this.text_B_Salida_1);
+            this.splitContainer7.Panel2.Controls.Add(this.textBox1);
+            this.splitContainer7.Panel2.Controls.Add(this.text_B_Entrada_1);
             this.splitContainer7.Panel2.Controls.Add(this.label37);
-            this.splitContainer7.Panel2.Controls.Add(this.label38);
-            this.splitContainer7.Panel2.Controls.Add(this.label39);
             this.splitContainer7.Size = new System.Drawing.Size(105, 92);
             this.splitContainer7.SplitterDistance = 52;
             this.splitContainer7.TabIndex = 0;
+            // 
+            // text_B_Entrada_0
+            // 
+            this.text_B_Entrada_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_B_Entrada_0.Enabled = false;
+            this.text_B_Entrada_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_B_Entrada_0.Location = new System.Drawing.Point(3, 0);
+            this.text_B_Entrada_0.Name = "text_B_Entrada_0";
+            this.text_B_Entrada_0.Size = new System.Drawing.Size(49, 23);
+            this.text_B_Entrada_0.TabIndex = 51;
+            // 
+            // text_B_Salida_0
+            // 
+            this.text_B_Salida_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_B_Salida_0.Enabled = false;
+            this.text_B_Salida_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_B_Salida_0.Location = new System.Drawing.Point(3, 66);
+            this.text_B_Salida_0.Name = "text_B_Salida_0";
+            this.text_B_Salida_0.Size = new System.Drawing.Size(49, 23);
+            this.text_B_Salida_0.TabIndex = 51;
             // 
             // label34
             // 
@@ -858,23 +931,25 @@
             this.label34.TabIndex = 2;
             this.label34.Text = "Ck=0";
             // 
-            // label35
+            // text_B_Salida_1
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(3, 67);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(35, 16);
-            this.label35.TabIndex = 1;
-            this.label35.Text = "xxxx";
+            this.text_B_Salida_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.text_B_Salida_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_B_Salida_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_B_Salida_1.Location = new System.Drawing.Point(0, 66);
+            this.text_B_Salida_1.Name = "text_B_Salida_1";
+            this.text_B_Salida_1.Size = new System.Drawing.Size(49, 23);
+            this.text_B_Salida_1.TabIndex = 51;
             // 
-            // label36
+            // text_B_Entrada_1
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(3, 11);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(35, 16);
-            this.label36.TabIndex = 0;
-            this.label36.Text = "xxxx";
+            this.text_B_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_B_Entrada_1.Enabled = false;
+            this.text_B_Entrada_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_B_Entrada_1.Location = new System.Drawing.Point(0, 0);
+            this.text_B_Entrada_1.Name = "text_B_Entrada_1";
+            this.text_B_Entrada_1.Size = new System.Drawing.Size(49, 23);
+            this.text_B_Entrada_1.TabIndex = 51;
             // 
             // label37
             // 
@@ -886,35 +961,17 @@
             this.label37.TabIndex = 5;
             this.label37.Text = "Ck=1";
             // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(3, 67);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(35, 16);
-            this.label38.TabIndex = 4;
-            this.label38.Text = "xxxx";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(3, 11);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(35, 16);
-            this.label39.TabIndex = 3;
-            this.label39.Text = "xxxx";
-            // 
             // groupBox9
             // 
             this.groupBox9.BackColor = System.Drawing.Color.White;
             this.groupBox9.Controls.Add(this.splitContainer8);
             this.groupBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox9.Location = new System.Drawing.Point(340, 644);
+            this.groupBox9.Location = new System.Drawing.Point(340, 661);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(111, 113);
             this.groupBox9.TabIndex = 15;
             this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "RL";
+            this.groupBox9.Text = "M--IP";
             // 
             // splitContainer8
             // 
@@ -925,18 +982,38 @@
             // splitContainer8.Panel1
             // 
             this.splitContainer8.Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.splitContainer8.Panel1.Controls.Add(this.text_IP_Salida_0);
+            this.splitContainer8.Panel1.Controls.Add(this.text_IP_Entrada_0);
             this.splitContainer8.Panel1.Controls.Add(this.label40);
-            this.splitContainer8.Panel1.Controls.Add(this.label41);
-            this.splitContainer8.Panel1.Controls.Add(this.label42);
             // 
             // splitContainer8.Panel2
             // 
+            this.splitContainer8.Panel2.Controls.Add(this.text_IP_Salida_1);
+            this.splitContainer8.Panel2.Controls.Add(this.text_IP_Entrada_1);
             this.splitContainer8.Panel2.Controls.Add(this.label43);
-            this.splitContainer8.Panel2.Controls.Add(this.label44);
-            this.splitContainer8.Panel2.Controls.Add(this.label45);
             this.splitContainer8.Size = new System.Drawing.Size(105, 92);
             this.splitContainer8.SplitterDistance = 52;
             this.splitContainer8.TabIndex = 0;
+            // 
+            // text_IP_Salida_0
+            // 
+            this.text_IP_Salida_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_IP_Salida_0.Enabled = false;
+            this.text_IP_Salida_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_IP_Salida_0.Location = new System.Drawing.Point(3, 66);
+            this.text_IP_Salida_0.Name = "text_IP_Salida_0";
+            this.text_IP_Salida_0.Size = new System.Drawing.Size(49, 23);
+            this.text_IP_Salida_0.TabIndex = 51;
+            // 
+            // text_IP_Entrada_0
+            // 
+            this.text_IP_Entrada_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_IP_Entrada_0.Enabled = false;
+            this.text_IP_Entrada_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_IP_Entrada_0.Location = new System.Drawing.Point(3, 0);
+            this.text_IP_Entrada_0.Name = "text_IP_Entrada_0";
+            this.text_IP_Entrada_0.Size = new System.Drawing.Size(49, 23);
+            this.text_IP_Entrada_0.TabIndex = 51;
             // 
             // label40
             // 
@@ -948,23 +1025,25 @@
             this.label40.TabIndex = 2;
             this.label40.Text = "Ck=0";
             // 
-            // label41
+            // text_IP_Salida_1
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(3, 67);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(35, 16);
-            this.label41.TabIndex = 1;
-            this.label41.Text = "xxxx";
+            this.text_IP_Salida_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.text_IP_Salida_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_IP_Salida_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_IP_Salida_1.Location = new System.Drawing.Point(0, 66);
+            this.text_IP_Salida_1.Name = "text_IP_Salida_1";
+            this.text_IP_Salida_1.Size = new System.Drawing.Size(49, 23);
+            this.text_IP_Salida_1.TabIndex = 51;
             // 
-            // label42
+            // text_IP_Entrada_1
             // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(3, 11);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(35, 16);
-            this.label42.TabIndex = 0;
-            this.label42.Text = "xxxx";
+            this.text_IP_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_IP_Entrada_1.Enabled = false;
+            this.text_IP_Entrada_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_IP_Entrada_1.Location = new System.Drawing.Point(0, 0);
+            this.text_IP_Entrada_1.Name = "text_IP_Entrada_1";
+            this.text_IP_Entrada_1.Size = new System.Drawing.Size(49, 23);
+            this.text_IP_Entrada_1.TabIndex = 51;
             // 
             // label43
             // 
@@ -976,35 +1055,17 @@
             this.label43.TabIndex = 5;
             this.label43.Text = "Ck=1";
             // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(3, 67);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(35, 16);
-            this.label44.TabIndex = 4;
-            this.label44.Text = "xxxx";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(3, 11);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(35, 16);
-            this.label45.TabIndex = 3;
-            this.label45.Text = "xxxx";
-            // 
             // groupBox10
             // 
             this.groupBox10.BackColor = System.Drawing.Color.White;
             this.groupBox10.Controls.Add(this.splitContainer9);
             this.groupBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox10.Location = new System.Drawing.Point(490, 641);
+            this.groupBox10.Location = new System.Drawing.Point(490, 658);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(111, 113);
             this.groupBox10.TabIndex = 16;
             this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "RL";
+            this.groupBox10.Text = "RDI";
             // 
             // splitContainer9
             // 
@@ -1015,18 +1076,38 @@
             // splitContainer9.Panel1
             // 
             this.splitContainer9.Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.splitContainer9.Panel1.Controls.Add(this.text_RDI_Salida_0);
+            this.splitContainer9.Panel1.Controls.Add(this.text_RDI_Entrada_0);
             this.splitContainer9.Panel1.Controls.Add(this.label46);
-            this.splitContainer9.Panel1.Controls.Add(this.label47);
-            this.splitContainer9.Panel1.Controls.Add(this.label48);
             // 
             // splitContainer9.Panel2
             // 
+            this.splitContainer9.Panel2.Controls.Add(this.text_RDI_Salida_1);
+            this.splitContainer9.Panel2.Controls.Add(this.text_RDI_Entrada_1);
             this.splitContainer9.Panel2.Controls.Add(this.label49);
-            this.splitContainer9.Panel2.Controls.Add(this.label50);
-            this.splitContainer9.Panel2.Controls.Add(this.label51);
             this.splitContainer9.Size = new System.Drawing.Size(105, 92);
             this.splitContainer9.SplitterDistance = 52;
             this.splitContainer9.TabIndex = 0;
+            // 
+            // text_RDI_Salida_0
+            // 
+            this.text_RDI_Salida_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RDI_Salida_0.Enabled = false;
+            this.text_RDI_Salida_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RDI_Salida_0.Location = new System.Drawing.Point(3, 66);
+            this.text_RDI_Salida_0.Name = "text_RDI_Salida_0";
+            this.text_RDI_Salida_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RDI_Salida_0.TabIndex = 51;
+            // 
+            // text_RDI_Entrada_0
+            // 
+            this.text_RDI_Entrada_0.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RDI_Entrada_0.Enabled = false;
+            this.text_RDI_Entrada_0.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RDI_Entrada_0.Location = new System.Drawing.Point(3, 0);
+            this.text_RDI_Entrada_0.Name = "text_RDI_Entrada_0";
+            this.text_RDI_Entrada_0.Size = new System.Drawing.Size(49, 23);
+            this.text_RDI_Entrada_0.TabIndex = 51;
             // 
             // label46
             // 
@@ -1038,23 +1119,25 @@
             this.label46.TabIndex = 2;
             this.label46.Text = "Ck=0";
             // 
-            // label47
+            // text_RDI_Salida_1
             // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(3, 67);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(35, 16);
-            this.label47.TabIndex = 1;
-            this.label47.Text = "xxxx";
+            this.text_RDI_Salida_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.text_RDI_Salida_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RDI_Salida_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RDI_Salida_1.Location = new System.Drawing.Point(0, 66);
+            this.text_RDI_Salida_1.Name = "text_RDI_Salida_1";
+            this.text_RDI_Salida_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RDI_Salida_1.TabIndex = 51;
             // 
-            // label48
+            // text_RDI_Entrada_1
             // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(3, 11);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(35, 16);
-            this.label48.TabIndex = 0;
-            this.label48.Text = "xxxx";
+            this.text_RDI_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RDI_Entrada_1.Enabled = false;
+            this.text_RDI_Entrada_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_RDI_Entrada_1.Location = new System.Drawing.Point(0, 0);
+            this.text_RDI_Entrada_1.Name = "text_RDI_Entrada_1";
+            this.text_RDI_Entrada_1.Size = new System.Drawing.Size(49, 23);
+            this.text_RDI_Entrada_1.TabIndex = 51;
             // 
             // label49
             // 
@@ -1066,28 +1149,10 @@
             this.label49.TabIndex = 5;
             this.label49.Text = "Ck=1";
             // 
-            // label50
+            // checked_salidas
             // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(3, 67);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(35, 16);
-            this.label50.TabIndex = 4;
-            this.label50.Text = "xxxx";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(3, 11);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(35, 16);
-            this.label51.TabIndex = 3;
-            this.label51.Text = "xxxx";
-            // 
-            // checkedListBox2
-            // 
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
+            this.checked_salidas.FormattingEnabled = true;
+            this.checked_salidas.Items.AddRange(new object[] {
             "0000",
             "0001",
             "0010",
@@ -1104,49 +1169,29 @@
             "1101",
             "1110",
             "1111"});
-            this.checkedListBox2.Location = new System.Drawing.Point(785, 556);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(55, 276);
-            this.checkedListBox2.TabIndex = 17;
+            this.checked_salidas.Location = new System.Drawing.Point(704, 560);
+            this.checked_salidas.Name = "checked_salidas";
+            this.checked_salidas.Size = new System.Drawing.Size(53, 276);
+            this.checked_salidas.TabIndex = 17;
             // 
-            // label52
+            // label_ModoDireccionamiento
             // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(650, 694);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(129, 15);
-            this.label52.TabIndex = 18;
-            this.label52.Text = "Bus de direcciones";
-            // 
-            // label_E
-            // 
-            this.label_E.AutoSize = true;
-            this.label_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_E.Location = new System.Drawing.Point(298, 353);
-            this.label_E.Name = "label_E";
-            this.label_E.Size = new System.Drawing.Size(21, 20);
-            this.label_E.TabIndex = 19;
-            this.label_E.Text = "E";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label53.Location = new System.Drawing.Point(410, 181);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(82, 19);
-            this.label53.TabIndex = 20;
-            this.label53.Text = "Modo ????";
+            this.label_ModoDireccionamiento.AutoSize = true;
+            this.label_ModoDireccionamiento.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_ModoDireccionamiento.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_ModoDireccionamiento.Location = new System.Drawing.Point(17, 186);
+            this.label_ModoDireccionamiento.Name = "label_ModoDireccionamiento";
+            this.label_ModoDireccionamiento.Size = new System.Drawing.Size(82, 19);
+            this.label_ModoDireccionamiento.TabIndex = 20;
+            this.label_ModoDireccionamiento.Text = "Modo ????";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(413, 206);
+            this.button1.Location = new System.Drawing.Point(56, 20);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 44);
+            this.button1.Size = new System.Drawing.Size(82, 44);
             this.button1.TabIndex = 21;
             this.button1.Text = "Ciclo 1 Fase Pedido";
             this.button1.UseVisualStyleBackColor = false;
@@ -1156,204 +1201,229 @@
             // 
             this.button2.BackColor = System.Drawing.Color.IndianRed;
             this.button2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(524, 206);
+            this.button2.Location = new System.Drawing.Point(144, 20);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 44);
+            this.button2.Size = new System.Drawing.Size(87, 44);
             this.button2.TabIndex = 22;
             this.button2.Text = "Ciclo 2 Fase Pedido";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(635, 206);
+            this.button3.Location = new System.Drawing.Point(237, 20);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 44);
+            this.button3.Size = new System.Drawing.Size(82, 44);
             this.button3.TabIndex = 23;
             this.button3.Text = "Ciclo 1 Fase Ejecución";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.IndianRed;
             this.button4.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(746, 206);
+            this.button4.Location = new System.Drawing.Point(325, 20);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(105, 44);
+            this.button4.Size = new System.Drawing.Size(74, 44);
             this.button4.TabIndex = 24;
             this.button4.Text = "Ciclo 2 Fase Ejecución";
             this.button4.UseVisualStyleBackColor = false;
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label54.Location = new System.Drawing.Point(410, 13);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(122, 19);
-            this.label54.TabIndex = 25;
-            this.label54.Text = "Ingreso de datos";
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label55
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(416, 38);
+            this.label55.Location = new System.Drawing.Point(15, 31);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(63, 14);
             this.label55.TabIndex = 26;
             this.label55.Text = "Instrucción:";
             // 
-            // label56
+            // groupBox11
             // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(416, 62);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(94, 14);
-            this.label56.TabIndex = 28;
-            this.label56.Text = "Cod. de operación";
+            this.groupBox11.Controls.Add(this.textBox_instruccion);
+            this.groupBox11.Controls.Add(this.label_ModoDireccionamiento);
+            this.groupBox11.Controls.Add(this.label55);
+            this.groupBox11.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox11.Location = new System.Drawing.Point(405, 13);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(405, 208);
+            this.groupBox11.TabIndex = 40;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Ingreso de Datos";
             // 
-            // textBox4
+            // groupBox12
             // 
-            this.textBox4.Location = new System.Drawing.Point(516, 68);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(135, 22);
-            this.textBox4.TabIndex = 27;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.groupBox12.Controls.Add(this.button5);
+            this.groupBox12.Controls.Add(this.button1);
+            this.groupBox12.Controls.Add(this.button2);
+            this.groupBox12.Controls.Add(this.button4);
+            this.groupBox12.Controls.Add(this.button3);
+            this.groupBox12.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox12.Location = new System.Drawing.Point(405, 227);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(405, 73);
+            this.groupBox12.TabIndex = 41;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Ejecución";
             // 
-            // label57
+            // lbl_AM
             // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(416, 76);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(95, 14);
-            this.label57.TabIndex = 29;
-            this.label57.Text = "Dir. de instrucción";
+            this.lbl_AM.AutoSize = true;
+            this.lbl_AM.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_AM.Location = new System.Drawing.Point(7, 51);
+            this.lbl_AM.Name = "lbl_AM";
+            this.lbl_AM.Size = new System.Drawing.Size(24, 14);
+            this.lbl_AM.TabIndex = 42;
+            this.lbl_AM.Text = "AM";
             // 
-            // label58
+            // lbl_LE
             // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(416, 99);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(70, 14);
-            this.label58.TabIndex = 31;
-            this.label58.Text = "Dir. del dato:";
+            this.lbl_LE.AutoSize = true;
+            this.lbl_LE.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_LE.Location = new System.Drawing.Point(7, 78);
+            this.lbl_LE.Name = "lbl_LE";
+            this.lbl_LE.Size = new System.Drawing.Size(23, 14);
+            this.lbl_LE.TabIndex = 43;
+            this.lbl_LE.Text = "L/E";
             // 
-            // textBox5
+            // lbl_BusDireccion
             // 
-            this.textBox5.Location = new System.Drawing.Point(516, 96);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(135, 22);
-            this.textBox5.TabIndex = 30;
+            this.lbl_BusDireccion.AutoSize = true;
+            this.lbl_BusDireccion.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_BusDireccion.Location = new System.Drawing.Point(6, 21);
+            this.lbl_BusDireccion.Name = "lbl_BusDireccion";
+            this.lbl_BusDireccion.Size = new System.Drawing.Size(23, 14);
+            this.lbl_BusDireccion.TabIndex = 44;
+            this.lbl_BusDireccion.Text = "----";
             // 
-            // label59
+            // checked_salidas_instr
             // 
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(416, 127);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(78, 14);
-            this.label59.TabIndex = 33;
-            this.label59.Text = "Valor del dato:";
+            this.checked_salidas_instr.FormattingEnabled = true;
+            this.checked_salidas_instr.Items.AddRange(new object[] {
+            "0111",
+            "1101",
+            "0101",
+            "1110",
+            "1001",
+            "1110",
+            "1100",
+            "0000",
+            "1111",
+            "1100",
+            "1010",
+            "1111",
+            "----",
+            "0110",
+            "0010",
+            "----"});
+            this.checked_salidas_instr.Location = new System.Drawing.Point(761, 560);
+            this.checked_salidas_instr.Name = "checked_salidas_instr";
+            this.checked_salidas_instr.Size = new System.Drawing.Size(53, 276);
+            this.checked_salidas_instr.TabIndex = 45;
             // 
-            // textBox6
+            // groupBox13
             // 
-            this.textBox6.Location = new System.Drawing.Point(516, 124);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(135, 22);
-            this.textBox6.TabIndex = 32;
+            this.groupBox13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox13.Controls.Add(this.lbl_LE);
+            this.groupBox13.Controls.Add(this.lbl_AM);
+            this.groupBox13.Controls.Add(this.lbl_BusDireccion);
+            this.groupBox13.Location = new System.Drawing.Point(632, 658);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(56, 100);
+            this.groupBox13.TabIndex = 46;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "Bus";
             // 
-            // label60
+            // lbl_RDA1
             // 
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(416, 155);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(78, 14);
-            this.label60.TabIndex = 35;
-            this.label60.Text = "Valor del dato:";
+            this.lbl_RDA1.AutoSize = true;
+            this.lbl_RDA1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_RDA1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lbl_RDA1.Location = new System.Drawing.Point(3, 4);
+            this.lbl_RDA1.Name = "lbl_RDA1";
+            this.lbl_RDA1.Size = new System.Drawing.Size(25, 19);
+            this.lbl_RDA1.TabIndex = 47;
+            this.lbl_RDA1.Text = "....";
             // 
-            // textBox7
+            // lbl_RDA2
             // 
-            this.textBox7.Location = new System.Drawing.Point(516, 152);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(135, 22);
-            this.textBox7.TabIndex = 34;
+            this.lbl_RDA2.AutoSize = true;
+            this.lbl_RDA2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_RDA2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lbl_RDA2.Location = new System.Drawing.Point(3, 4);
+            this.lbl_RDA2.Name = "lbl_RDA2";
+            this.lbl_RDA2.Size = new System.Drawing.Size(25, 19);
+            this.lbl_RDA2.TabIndex = 48;
+            this.lbl_RDA2.Text = "....";
             // 
-            // label61
+            // groupBox14
             // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(657, 71);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(35, 14);
-            this.label61.TabIndex = 36;
-            this.label61.Text = "XXXX";
+            this.groupBox14.BackColor = System.Drawing.Color.White;
+            this.groupBox14.Controls.Add(this.splitContainer10);
+            this.groupBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox14.Location = new System.Drawing.Point(700, 510);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(114, 44);
+            this.groupBox14.TabIndex = 49;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "RDA";
             // 
-            // label62
+            // splitContainer10
             // 
-            this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(657, 99);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(35, 14);
-            this.label62.TabIndex = 37;
-            this.label62.Text = "XXXX";
+            this.splitContainer10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer10.Location = new System.Drawing.Point(3, 18);
+            this.splitContainer10.Name = "splitContainer10";
             // 
-            // label63
+            // splitContainer10.Panel1
             // 
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(657, 127);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(35, 14);
-            this.label63.TabIndex = 38;
-            this.label63.Text = "XXXX";
+            this.splitContainer10.Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.splitContainer10.Panel1.Controls.Add(this.lbl_RDA1);
             // 
-            // label64
+            // splitContainer10.Panel2
             // 
-            this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.Location = new System.Drawing.Point(657, 155);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(35, 14);
-            this.label64.TabIndex = 39;
-            this.label64.Text = "XXXX";
+            this.splitContainer10.Panel2.Controls.Add(this.lbl_RDA2);
+            this.splitContainer10.Size = new System.Drawing.Size(108, 23);
+            this.splitContainer10.SplitterDistance = 53;
+            this.splitContainer10.TabIndex = 0;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button5.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(3, 20);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(52, 44);
+            this.button5.TabIndex = 50;
+            this.button5.Text = "Inicio en 0";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(170, -198);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(49, 23);
+            this.textBox1.TabIndex = 51;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(883, 848);
-            this.Controls.Add(this.label64);
-            this.Controls.Add(this.label63);
-            this.Controls.Add(this.label62);
-            this.Controls.Add(this.label61);
-            this.Controls.Add(this.label60);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label59);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label58);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label57);
-            this.Controls.Add(this.label56);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label55);
-            this.Controls.Add(this.label54);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label53);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label_E);
-            this.Controls.Add(this.label52);
-            this.Controls.Add(this.checkedListBox2);
+            this.BackgroundImage = global::ModeloProcesador.Properties.Resources.FONDO;
+            this.ClientSize = new System.Drawing.Size(826, 848);
+            this.Controls.Add(this.groupBox14);
+            this.Controls.Add(this.groupBox13);
+            this.Controls.Add(this.checked_salidas_instr);
+            this.Controls.Add(this.groupBox12);
+            this.Controls.Add(this.groupBox11);
+            this.Controls.Add(this.checked_salidas);
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.groupBox8);
@@ -1365,9 +1435,10 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.RightToLeftLayout = true;
-            this.Text = "Form1";
+            this.Text = "Modelo de Procesador";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -1433,114 +1504,124 @@
             this.splitContainer9.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer9)).EndInit();
             this.splitContainer9.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            this.groupBox14.ResumeLayout(false);
+            this.splitContainer10.Panel1.ResumeLayout(false);
+            this.splitContainer10.Panel1.PerformLayout();
+            this.splitContainer10.Panel2.ResumeLayout(false);
+            this.splitContainer10.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer10)).EndInit();
+            this.splitContainer10.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox_DireccionSelecc_UC;
+        private System.Windows.Forms.TextBox textBox_instruccion;
+        private System.Windows.Forms.CheckedListBox checked_UC_Entrada;
+        private System.Windows.Forms.TextBox textBox_Salida_UC;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lbl_ri_ck0_slave;
-        private System.Windows.Forms.Label lbl_ri_ck0_master;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label lbl_ri_ck1_slave;
-        private System.Windows.Forms.Label lbl_ri_ck1_master;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.SplitContainer splitContainer3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.SplitContainer splitContainer4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.SplitContainer splitContainer5;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.SplitContainer splitContainer6;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label33;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.SplitContainer splitContainer7;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.SplitContainer splitContainer8;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.SplitContainer splitContainer9;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.CheckedListBox checkedListBox2;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label_E;
-        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.CheckedListBox checked_salidas;
+        private System.Windows.Forms.Label label_ModoDireccionamiento;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.TextBox textBox_Codsalida_UC;
+        private System.Windows.Forms.Label label_SalidasResaltadas;
+        private System.Windows.Forms.Label lbl_AM;
+        private System.Windows.Forms.Label lbl_LE;
+        private System.Windows.Forms.Label lbl_BusDireccion;
+        private System.Windows.Forms.CheckedListBox checked_salidas_instr;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.Label lbl_RDA1;
+        private System.Windows.Forms.Label lbl_RDA2;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.SplitContainer splitContainer10;
+        private System.Windows.Forms.TextBox text_RI_IZQ_Salida_0;
+        private System.Windows.Forms.TextBox text_RI_IZQ_Entrada_0;
+        private System.Windows.Forms.TextBox text_RI_IZQ_Salida_1;
+        private System.Windows.Forms.TextBox text_RI_IZQ_Entrada_1;
+        private System.Windows.Forms.TextBox text_RI_DER_Salida_0;
+        private System.Windows.Forms.TextBox text_RI_DER_Entrada_0;
+        private System.Windows.Forms.TextBox text_RI_DER_Salida_1;
+        private System.Windows.Forms.TextBox text_RI_DER_Entrada_1;
+        private System.Windows.Forms.TextBox text_RL_Salida_0;
+        private System.Windows.Forms.TextBox text_RL_Entrada_0;
+        private System.Windows.Forms.TextBox text_RL_Entrada_1;
+        private System.Windows.Forms.TextBox text_RL_Salida_1;
+        private System.Windows.Forms.TextBox text_RE_Entrada_0;
+        private System.Windows.Forms.TextBox text_RE_Entrada_1;
+        private System.Windows.Forms.TextBox text_UAL_X;
+        private System.Windows.Forms.TextBox text_UAL_Y;
+        private System.Windows.Forms.TextBox text_A_Entrada_0;
+        private System.Windows.Forms.TextBox text_A_Entrada_1;
+        private System.Windows.Forms.TextBox text_A_Salida_0;
+        private System.Windows.Forms.TextBox text_A_Salida_1;
+        private System.Windows.Forms.TextBox text_B_Entrada_0;
+        private System.Windows.Forms.TextBox text_B_Salida_0;
+        private System.Windows.Forms.TextBox text_B_Salida_1;
+        private System.Windows.Forms.TextBox text_B_Entrada_1;
+        private System.Windows.Forms.TextBox text_IP_Salida_0;
+        private System.Windows.Forms.TextBox text_IP_Entrada_0;
+        private System.Windows.Forms.TextBox text_IP_Salida_1;
+        private System.Windows.Forms.TextBox text_IP_Entrada_1;
+        private System.Windows.Forms.TextBox text_RDI_Salida_0;
+        private System.Windows.Forms.TextBox text_RDI_Entrada_0;
+        private System.Windows.Forms.TextBox text_RDI_Salida_1;
+        private System.Windows.Forms.TextBox text_RDI_Entrada_1;
+        private System.Windows.Forms.TextBox text_RE_Salida_0;
+        private System.Windows.Forms.TextBox text_RE_Salida_1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
