@@ -138,7 +138,8 @@ namespace ModeloProcesador
         {
             try
             {
-                TieneValoresPrecargados();
+                if (!string.IsNullOrEmpty(text_IP_Salida_1.Text))
+                    TieneValoresPrecargados();
 
                 #region Clock 0
                 //pOR LO VISTO SIEMPRE EMPIEZA EN 0
@@ -390,7 +391,7 @@ namespace ModeloProcesador
 
         #region Mostrar Labels
      
-        private bool TieneValoresPrecargados()
+        private void TieneValoresPrecargados()
         {
             //Solo para pruebas asi termina MOVA[1101]
             text_RL_Salida_1.Text = "0000";
@@ -434,8 +435,6 @@ namespace ModeloProcesador
             // RI DER
             RI_Der.Valor_Salida_0 = text_RI_DER_Salida_1.Text;
             RI_Der.Salida_general = RI_Der.Valor_Salida_0;
-
-            return !string.IsNullOrEmpty(IP.Valor_Salida_0);
         }
 
         private void textBox_instruccion_TextChanged(object sender, EventArgs e)

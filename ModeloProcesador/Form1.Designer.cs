@@ -91,6 +91,7 @@
             this.text_B_Salida_0 = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
             this.text_B_Salida_1 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.text_B_Entrada_1 = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
@@ -118,6 +119,7 @@
             this.label55 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.lbl_AM = new System.Windows.Forms.Label();
             this.lbl_LE = new System.Windows.Forms.Label();
             this.lbl_BusDireccion = new System.Windows.Forms.Label();
@@ -127,8 +129,6 @@
             this.lbl_RDA2 = new System.Windows.Forms.Label();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
             this.splitContainer10 = new System.Windows.Forms.SplitContainer();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -304,7 +304,6 @@
             this.textBox_instruccion.Name = "textBox_instruccion";
             this.textBox_instruccion.Size = new System.Drawing.Size(315, 26);
             this.textBox_instruccion.TabIndex = 8;
-            this.textBox_instruccion.Text = "SUBA,[1101]";
             this.textBox_instruccion.TextChanged += new System.EventHandler(this.textBox_instruccion_TextChanged);
             // 
             // groupBox2
@@ -941,6 +940,15 @@
             this.text_B_Salida_1.Size = new System.Drawing.Size(49, 23);
             this.text_B_Salida_1.TabIndex = 51;
             // 
+            // textBox1
+            // 
+            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(170, -198);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(49, 23);
+            this.textBox1.TabIndex = 51;
+            // 
             // text_B_Entrada_1
             // 
             this.text_B_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
@@ -1271,6 +1279,18 @@
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Ejecución";
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button5.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(3, 20);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(52, 44);
+            this.button5.TabIndex = 50;
+            this.button5.Text = "Inicio en 0";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // lbl_AM
             // 
             this.lbl_AM.AutoSize = true;
@@ -1390,27 +1410,6 @@
             this.splitContainer10.Size = new System.Drawing.Size(108, 23);
             this.splitContainer10.SplitterDistance = 53;
             this.splitContainer10.TabIndex = 0;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button5.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(3, 20);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(52, 44);
-            this.button5.TabIndex = 50;
-            this.button5.Text = "Inicio en 0";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(170, -198);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(49, 23);
-            this.textBox1.TabIndex = 51;
             // 
             // Form1
             // 
