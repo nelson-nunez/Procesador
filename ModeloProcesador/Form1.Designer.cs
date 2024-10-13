@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label_SalidasResaltadas = new System.Windows.Forms.Label();
             this.textBox_Codsalida_UC = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.checked_UC_Entrada = new System.Windows.Forms.CheckedListBox();
             this.textBox_Salida_UC = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -119,7 +119,6 @@
             this.label55 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.lbl_AM = new System.Windows.Forms.Label();
             this.lbl_LE = new System.Windows.Forms.Label();
             this.lbl_BusDireccion = new System.Windows.Forms.Label();
@@ -129,6 +128,7 @@
             this.lbl_RDA2 = new System.Windows.Forms.Label();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
             this.splitContainer10 = new System.Windows.Forms.SplitContainer();
+            this.label_EstadoActual = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -188,9 +188,9 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.checkedListBox1);
             this.groupBox1.Controls.Add(this.label_SalidasResaltadas);
             this.groupBox1.Controls.Add(this.textBox_Codsalida_UC);
-            this.groupBox1.Controls.Add(this.listBox1);
             this.groupBox1.Controls.Add(this.checked_UC_Entrada);
             this.groupBox1.Controls.Add(this.textBox_Salida_UC);
             this.groupBox1.Controls.Add(this.label2);
@@ -201,6 +201,31 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "UC";
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "0111  MOV A,[1101] ",
+            "1101 ",
+            "0101  SUB A,[1110] ",
+            "1110 ",
+            "1001  MOV B,1110 ",
+            "1110 ",
+            "1100  SUB A,[B] ",
+            "0000 ",
+            "1111  JNZ 0110 ",
+            "1100 ",
+            "1010  MOV [1111],A ",
+            "1111 ",
+            "-----",
+            "0110 ",
+            "0010 ",
+            "-----"});
+            this.checkedListBox1.Location = new System.Drawing.Point(224, 17);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(135, 276);
+            this.checkedListBox1.TabIndex = 15;
             // 
             // label_SalidasResaltadas
             // 
@@ -219,33 +244,6 @@
             this.textBox_Codsalida_UC.Name = "textBox_Codsalida_UC";
             this.textBox_Codsalida_UC.Size = new System.Drawing.Size(55, 22);
             this.textBox_Codsalida_UC.TabIndex = 13;
-            // 
-            // listBox1
-            // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Items.AddRange(new object[] {
-            "0111  MOV A,[1101] ",
-            "1101 ",
-            "0101  SUB A,[1110] ",
-            "1110 ",
-            "1001  MOV B,1110 ",
-            "1110 ",
-            "1100  SUB A,[B] ",
-            "0000 ",
-            "1111  JNZ 0110 ",
-            "1100 ",
-            "1010  MOV [1111],A ",
-            "1111 ",
-            "-----",
-            "0110 ",
-            "0010 ",
-            "-----"});
-            this.listBox1.Location = new System.Drawing.Point(224, 17);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(135, 259);
-            this.listBox1.TabIndex = 12;
             // 
             // checked_UC_Entrada
             // 
@@ -291,7 +289,6 @@
             // 
             // textBox_DireccionSelecc_UC
             // 
-            this.textBox_DireccionSelecc_UC.Enabled = false;
             this.textBox_DireccionSelecc_UC.Location = new System.Drawing.Point(67, 299);
             this.textBox_DireccionSelecc_UC.Name = "textBox_DireccionSelecc_UC";
             this.textBox_DireccionSelecc_UC.Size = new System.Drawing.Size(151, 22);
@@ -1197,7 +1194,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(56, 20);
+            this.button1.Location = new System.Drawing.Point(21, 23);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 44);
             this.button1.TabIndex = 21;
@@ -1209,7 +1206,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.IndianRed;
             this.button2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(144, 20);
+            this.button2.Location = new System.Drawing.Point(109, 23);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 44);
             this.button2.TabIndex = 22;
@@ -1221,9 +1218,9 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(237, 20);
+            this.button3.Location = new System.Drawing.Point(202, 23);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(82, 44);
+            this.button3.Size = new System.Drawing.Size(91, 44);
             this.button3.TabIndex = 23;
             this.button3.Text = "Ciclo 1 Fase Ejecución";
             this.button3.UseVisualStyleBackColor = false;
@@ -1233,9 +1230,9 @@
             // 
             this.button4.BackColor = System.Drawing.Color.IndianRed;
             this.button4.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(325, 20);
+            this.button4.Location = new System.Drawing.Point(299, 23);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(74, 44);
+            this.button4.Size = new System.Drawing.Size(89, 44);
             this.button4.TabIndex = 24;
             this.button4.Text = "Ciclo 2 Fase Ejecución";
             this.button4.UseVisualStyleBackColor = false;
@@ -1266,7 +1263,6 @@
             // 
             // groupBox12
             // 
-            this.groupBox12.Controls.Add(this.button5);
             this.groupBox12.Controls.Add(this.button1);
             this.groupBox12.Controls.Add(this.button2);
             this.groupBox12.Controls.Add(this.button4);
@@ -1278,18 +1274,6 @@
             this.groupBox12.TabIndex = 41;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Ejecución";
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button5.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(3, 20);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(52, 44);
-            this.button5.TabIndex = 50;
-            this.button5.Text = "Inicio en 0";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // lbl_AM
             // 
@@ -1411,12 +1395,24 @@
             this.splitContainer10.SplitterDistance = 53;
             this.splitContainer10.TabIndex = 0;
             // 
+            // label_EstadoActual
+            // 
+            this.label_EstadoActual.AutoSize = true;
+            this.label_EstadoActual.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_EstadoActual.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_EstadoActual.Location = new System.Drawing.Point(35, 396);
+            this.label_EstadoActual.Name = "label_EstadoActual";
+            this.label_EstadoActual.Size = new System.Drawing.Size(37, 19);
+            this.label_EstadoActual.TabIndex = 50;
+            this.label_EstadoActual.Text = "????";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ModeloProcesador.Properties.Resources.FONDO;
             this.ClientSize = new System.Drawing.Size(826, 848);
+            this.Controls.Add(this.label_EstadoActual);
             this.Controls.Add(this.groupBox14);
             this.Controls.Add(this.groupBox13);
             this.Controls.Add(this.checked_salidas_instr);
@@ -1516,6 +1512,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer10)).EndInit();
             this.splitContainer10.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1538,7 +1535,6 @@
         private System.Windows.Forms.SplitContainer splitContainer3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.SplitContainer splitContainer4;
         private System.Windows.Forms.Label label1;
@@ -1619,8 +1615,9 @@
         private System.Windows.Forms.TextBox text_RDI_Entrada_1;
         private System.Windows.Forms.TextBox text_RE_Salida_0;
         private System.Windows.Forms.TextBox text_RE_Salida_1;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label label_EstadoActual;
     }
 }
 

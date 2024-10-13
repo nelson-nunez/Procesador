@@ -32,118 +32,41 @@ namespace ModeloProcesador
         InstruccionSet direccioncompleta = new InstruccionSet(null, null, null, null);
 
         #endregion
-
         public Form1()
         {
             InitializeComponent();
+            InicializarTodo();
+        }
+
+        private void InicializarTodo()
+        {
+            A = new A();
+            B = new B();
+            IP = new IP();
+            RDI = new RDI();
+            RE = new RE();
+            RI_Izq = new RI_Izquierdo();
+            RI_Der = new RI_Derecho();
+            RL = new RL();
+            UAL = new UAL();
+            BusMemoria = new BusDir_Memoria();
+            listSalAct = new List<string>();
+            direccioncompleta = new InstruccionSet(null, null, null, null);
         }
 
         #region Botones Fases
-        //Precargar en 0
-        private void button5_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                //Acá va la direccion de memoria de la siguiente instrucción!!!!
-                IP.Valor_Salida_0 = "0000";
-                IP.Salida_general = IP.Valor_Salida_0;
-
-                //Cargo inicial RL
-                RL.Valor_Entrada_0 = "0000";
-                RL.Valor_Salida_0 = "0000";
-                RL.Salida_general = "0000";
-
-                //Carga inicial de 
-                A.Valor_Salida_0 = "XXXX";
-                A.Salida_general = "XXXX";
-
-                B.Valor_Salida_0 = "XXXX";
-                B.Salida_general = "XXXX";
-
-                RE.Valor_Salida_0 = "XXXX";
-                RE.Salida_general = "XXXX";
-
-
-                RDI.Valor_Salida_0 = "XXXX";
-                RDI.Salida_general = "XXXX";
-
-                RI_Izq.Valor_Salida_0 = "XXXX";
-                RI_Izq.Salida_general = "XXXX";
-
-                RI_Der.Valor_Salida_0 = "XXXX";
-                RI_Der.Salida_general = "XXXX";
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                //RI IZQ
-                text_RI_IZQ_Entrada_0.Text = RI_Izq.Valor_Entrada_0;
-                text_RI_IZQ_Entrada_1.Text = RI_Izq.Valor_Entrada_1;
-                text_RI_IZQ_Salida_0.Text = RI_Izq.Valor_Salida_0;
-                text_RI_IZQ_Salida_1.Text = RI_Izq.Valor_Salida_1;
-
-                //RI DER
-                text_RI_DER_Entrada_0.Text = RI_Der.Valor_Entrada_0;
-                text_RI_DER_Entrada_1.Text = RI_Der.Valor_Entrada_1;
-                text_RI_DER_Salida_0.Text = RI_Der.Valor_Salida_0;
-                text_RI_DER_Salida_1.Text = RI_Der.Valor_Salida_1;
-
-                //RL
-                text_RL_Entrada_0.Text = RL.Valor_Entrada_0;
-                text_RL_Entrada_1.Text = RL.Valor_Entrada_1;
-                text_RL_Salida_0.Text = RL.Valor_Salida_0;
-                text_RL_Salida_1.Text = RL.Valor_Salida_1;
-
-                //RE (Registro de Estado)
-                text_RE_Entrada_0.Text = RE.Valor_Entrada_0;
-                text_RE_Entrada_1.Text = RE.Valor_Entrada_1;
-                text_RE_Salida_0.Text = RE.Valor_Salida_0;
-                text_RE_Salida_1.Text = RE.Valor_Salida_1;
-
-                //RDI (Registro de Datos de Instrucción)
-                text_RDI_Entrada_0.Text = RDI.Valor_Entrada_0;
-                text_RDI_Entrada_1.Text = RDI.Valor_Entrada_1;
-                text_RDI_Salida_0.Text = RDI.Valor_Salida_0;
-                text_RDI_Salida_1.Text = RDI.Valor_Salida_1;
-
-                //A (Registro A)
-                text_A_Entrada_0.Text = A.Valor_Entrada_0;
-                text_A_Entrada_1.Text = A.Valor_Entrada_1;
-                text_A_Salida_0.Text = A.Valor_Salida_0;
-                text_A_Salida_1.Text = A.Valor_Salida_1;
-
-                //B (Registro B)
-                text_B_Entrada_0.Text = B.Valor_Entrada_0;
-                text_B_Entrada_1.Text = B.Valor_Entrada_1;
-                text_B_Salida_0.Text = B.Valor_Salida_0;
-                text_B_Salida_1.Text = B.Valor_Salida_1;
-
-                //IP (Registro de Instrucción del Procesador)
-                text_IP_Entrada_0.Text = IP.Valor_Entrada_0;
-                text_IP_Entrada_1.Text = IP.Valor_Entrada_1;
-                text_IP_Salida_0.Text = IP.Valor_Salida_0;
-                text_IP_Salida_1.Text = IP.Valor_Salida_1;
-
-                //UAL
-                text_UAL_X.Text = UAL.Valor_Entrada_X;
-                text_UAL_Y.Text = UAL.Valor_Entrada_Y;
-            }
-        }
 
         //Ciclo 1 Fase Pedido
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                if (!string.IsNullOrEmpty(text_IP_Salida_1.Text))
-                    TieneValoresPrecargados();
+                InicializarTodo();
+                TieneValoresPrecargados();
 
                 #region Clock 0
-                //pOR LO VISTO SIEMPRE EMPIEZA EN 0
-                direccioncompleta = BuscarDireccionBinariaXCodigo("0000");
+                //POR LO VISTO SIEMPRE EMPIEZA EN 0
+                direccioncompleta = BuscarDireccionBinaria(textBox_instruccion.Text);
                 listSalAct = Salidas.GenerarListaSalida(direccioncompleta.Binario);
                 UAL = UAL.Calcular_UAL(listSalAct, A, B, IP, RI_Der, BusMemoria);
                 //RE
@@ -184,6 +107,7 @@ namespace ModeloProcesador
             }
             finally
             {
+                label_EstadoActual.Text = "Primer Ciclo - Fase Pedido";
                 MostrarLabels();
             }
         }
@@ -236,6 +160,7 @@ namespace ModeloProcesador
             }
             finally
             {
+                label_EstadoActual.Text = "Segundo Ciclo - Fase Pedido";
                 MostrarLabels();
             }
         }
@@ -258,11 +183,20 @@ namespace ModeloProcesador
                 A = A.Calcular_A(Const.FE_C1_CK0, listSalAct, UAL.Salida_general);
                 B = B.Calcular_B(Const.FE_C1_CK0, listSalAct, UAL.Salida_general);
 
-                IP = IP.Calcular_IP(Const.FE_C1_CK0, listSalAct, UAL.Salida_general, IP.Salida_general);
+                //Osea si es relativo llegado a la ejecucion el IP va a Sumar con RI
+                //En el caso del parcial creo que es IP + JNZ 0110 
+                string sumatemporal = UAL.Salida_general;
+                if (textBox_instruccion.Text.DeterminarModo() == "Direccionamiento Relativo")
+                {
+                    int ual = UAL.Salida_general == "XXXX" ? 0 : Convert.ToInt32(UAL.Salida_general, 2);
+                    int dataDir = Convert.ToInt32("0110", 2);
+                    int suma = ual + dataDir;
+                    sumatemporal = Convert.ToString(suma, 2).PadLeft(4, '0'); 
+                }
 
+                IP = IP.Calcular_IP(Const.FE_C1_CK0, listSalAct, sumatemporal, IP.Salida_general);
                 RDI = RDI.Calcular_RDI(Const.FE_C1_CK0, listSalAct, UAL.Salida_general);
                 BusMemoria = BusMemoria.Calcular_BusDir_Memoria(RDI.Salida_general, listSalAct, Const.FE_C1_CK0);
-
                 RI_Der = RI_Der.Calcular_RI_Der(Const.FE_C1_CK0, listSalAct, BusMemoria);
                 RI_Izq = RI_Izq.Calcular_RI_Izq(Const.FE_C1_CK0, listSalAct, BusMemoria);
 
@@ -287,6 +221,7 @@ namespace ModeloProcesador
             }
             finally
             {
+                label_EstadoActual.Text = "Primer Ciclo - Fase Ejecución";
                 MostrarLabels();
             }
         }
@@ -335,6 +270,7 @@ namespace ModeloProcesador
             }
             finally
             {
+                label_EstadoActual.Text = "Segundo Ciclo - Fase Ejecución";
                 MostrarLabels();
             }
 
@@ -393,15 +329,40 @@ namespace ModeloProcesador
      
         private void TieneValoresPrecargados()
         {
-            //Solo para pruebas asi termina MOVA[1101]
-            text_RL_Salida_1.Text = "0000";
-            text_RE_Salida_1.Text = "XXXX";
-            text_RDI_Salida_1.Text = "1101";
-            text_A_Salida_1.Text = "0110";
-            text_B_Salida_1.Text = "XXXX";
-            text_IP_Salida_1.Text = "0010";//Justo es la siguiente en este caso SUBA[]
-            text_RI_IZQ_Salida_1.Text = "0111";
-            text_RI_DER_Salida_1.Text = "1101";
+            //MOVA,[1101]
+            //textBox_instruccion.Text = "MOV A,[1101]";
+            //text_RL_Salida_1.Text = "0000";
+            //text_RE_Salida_1.Text = "XXXX";
+            //text_IP_Salida_1.Text = "0000";
+            //text_RDI_Salida_1.Text = "XXXX";
+            //text_A_Salida_1.Text = "XXXX";
+            //text_B_Salida_1.Text = "XXXX";
+            //text_RI_IZQ_Salida_1.Text = "XXXX";
+            //text_RI_DER_Salida_1.Text = "XXXX";
+
+
+            //SUBA;[1110]
+            //text_RL_Salida_1.Text = "0000";
+            //text_RE_Salida_1.Text = "XXXX";
+            //text_RDI_Salida_1.Text = "1101";
+            //text_A_Salida_1.Text = "0110";
+            //text_B_Salida_1.Text = "XXXX";
+            //text_IP_Salida_1.Text = "0010";//Justo es la siguiente en este caso SUBA[]
+            //text_RI_IZQ_Salida_1.Text = "0111";
+            //text_RI_DER_Salida_1.Text = "1101";
+            //textBox_instruccion.Text = "SUB A,[1110]";
+
+            //Parcial = JNZ 0110
+            //textBox_instruccion.Text = "JNZ 0110";
+            //text_RL_Salida_1.Text = "1101";
+            //text_RE_Salida_1.Text = "0000";
+            //text_RDI_Salida_1.Text = "1110";
+            //text_A_Salida_1.Text = "0010";
+            //text_B_Salida_1.Text = "1110";
+            //text_IP_Salida_1.Text = "1000";
+            //text_RI_IZQ_Salida_1.Text = "1100";
+            //text_RI_DER_Salida_1.Text = "0000";
+
 
             // RL
             RL.Valor_Entrada_0 = text_RL_Salida_1.Text;
