@@ -29,28 +29,32 @@ namespace ModeloProcesador.Models
                 Linea_Control = "1";
 
             // Calcular la entrada X
-            if (listaSalidasActivas.Contains(Salidas.H0X))
+            if (listaSalidasActivas.Contains(Salidas.HAX))
+                Valor_Entrada_X = A.Salida_general;
+            else if (listaSalidasActivas.Contains(Salidas.HBX))
+                Valor_Entrada_X = B.Salida_general;
+            else if (listaSalidasActivas.Contains(Salidas.H0X))
                 Valor_Entrada_X = "0000";
             if (listaSalidasActivas.Contains(Salidas.HX1))
                 Valor_Entrada_X = busDir_Memoria.RDA2;
-            else if (listaSalidasActivas.Contains(Salidas.HBX))
-                Valor_Entrada_X = B.Salida_general;
             else if (listaSalidasActivas.Contains(Salidas.HRIX))
                 Valor_Entrada_X = RI_Derecho.Salida_general;
-            else if (listaSalidasActivas.Contains(Salidas.HAX))
-                Valor_Entrada_X = A.Salida_general;
+            //else if (listaSalidasActivas.Contains(Salidas.HX2))
+            //    Valor_Entrada_X = ?????;
 
             // Calcular la entrada Y
-            if (listaSalidasActivas.Contains(Salidas.HRIY))
-                Valor_Entrada_Y = IP.Salida_general;
-            else if (listaSalidasActivas.Contains(Salidas.HIp))
-                Valor_Entrada_Y = IP.Salida_general;
-            else if (listaSalidasActivas.Contains(Salidas.H0Y))
-                Valor_Entrada_Y = "0000";
+            if (listaSalidasActivas.Contains(Salidas.HAY))
+                Valor_Entrada_Y = A.Salida_general;
             else if (listaSalidasActivas.Contains(Salidas.HBY))
                 Valor_Entrada_Y = B.Salida_general;
-            else if (listaSalidasActivas.Contains(Salidas.HAY))
-                Valor_Entrada_Y = A.Salida_general;
+            else if (listaSalidasActivas.Contains(Salidas.H0Y))
+                Valor_Entrada_Y = "0000";
+            else if (listaSalidasActivas.Contains(Salidas.HIp))
+                Valor_Entrada_Y = IP.Salida_general;
+            else if(listaSalidasActivas.Contains(Salidas.HRIY))
+                Valor_Entrada_Y = RI_Derecho.Salida_general;
+            else if (listaSalidasActivas.Contains(Salidas.HY1))
+                Valor_Entrada_Y = busDir_Memoria.RDA2;
 
             // Si ninguna H está habilitada, ambas entradas se establecen en "XXXX"
             if (string.IsNullOrEmpty(Valor_Entrada_X))

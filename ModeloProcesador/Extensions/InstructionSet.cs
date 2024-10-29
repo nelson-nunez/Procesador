@@ -55,7 +55,7 @@ namespace ModeloProcesador
             new InstruccionSet("1100", "000101000000000010100010", "1101", "SUB A,[B]"),
             new InstruccionSet("1101", "100000000011101000100010", "0000", null),
             new InstruccionSet("1110", "000000000001101001000010", "0000", "ADD A,B"),
-            new InstruccionSet("1111", "000000000000000000000010", "0000", null),
+            //new InstruccionSet("1111", "000000000000000000000010", "0000", null),
             new InstruccionSet("1111", "011000010000000000000010", "0000", "JNZ rrrr")
         };
 

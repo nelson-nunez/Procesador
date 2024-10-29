@@ -29,12 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label_SalidasResaltadas = new System.Windows.Forms.Label();
             this.textBox_Codsalida_UC = new System.Windows.Forms.TextBox();
             this.checked_UC_Entrada = new System.Windows.Forms.CheckedListBox();
             this.textBox_Salida_UC = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.textBox_DireccionSelecc_UC = new System.Windows.Forms.TextBox();
             this.textBox_instruccion = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -188,50 +186,23 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.groupBox1.Controls.Add(this.checkedListBox1);
             this.groupBox1.Controls.Add(this.label_SalidasResaltadas);
             this.groupBox1.Controls.Add(this.textBox_Codsalida_UC);
             this.groupBox1.Controls.Add(this.checked_UC_Entrada);
             this.groupBox1.Controls.Add(this.textBox_Salida_UC);
-            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.textBox_DireccionSelecc_UC);
-            this.groupBox1.Location = new System.Drawing.Point(24, 13);
+            this.groupBox1.Location = new System.Drawing.Point(23, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(365, 350);
+            this.groupBox1.Size = new System.Drawing.Size(366, 358);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "UC";
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "0111  MOV A,[1101] ",
-            "1101 ",
-            "0101  SUB A,[1110] ",
-            "1110 ",
-            "1001  MOV B,1110 ",
-            "1110 ",
-            "1100  SUB A,[B] ",
-            "0000 ",
-            "1111  JNZ 0110 ",
-            "1100 ",
-            "1010  MOV [1111],A ",
-            "1111 ",
-            "-----",
-            "0110 ",
-            "0010 ",
-            "-----"});
-            this.checkedListBox1.Location = new System.Drawing.Point(224, 17);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(135, 276);
-            this.checkedListBox1.TabIndex = 15;
             // 
             // label_SalidasResaltadas
             // 
             this.label_SalidasResaltadas.AutoSize = true;
             this.label_SalidasResaltadas.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_SalidasResaltadas.Location = new System.Drawing.Point(3, 328);
+            this.label_SalidasResaltadas.Location = new System.Drawing.Point(3, 342);
             this.label_SalidasResaltadas.Name = "label_SalidasResaltadas";
             this.label_SalidasResaltadas.Size = new System.Drawing.Size(81, 13);
             this.label_SalidasResaltadas.TabIndex = 14;
@@ -240,58 +211,51 @@
             // textBox_Codsalida_UC
             // 
             this.textBox_Codsalida_UC.Enabled = false;
-            this.textBox_Codsalida_UC.Location = new System.Drawing.Point(224, 299);
+            this.textBox_Codsalida_UC.Location = new System.Drawing.Point(247, 316);
             this.textBox_Codsalida_UC.Name = "textBox_Codsalida_UC";
-            this.textBox_Codsalida_UC.Size = new System.Drawing.Size(55, 22);
+            this.textBox_Codsalida_UC.Size = new System.Drawing.Size(49, 22);
             this.textBox_Codsalida_UC.TabIndex = 13;
             // 
             // checked_UC_Entrada
             // 
+            this.checked_UC_Entrada.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checked_UC_Entrada.FormattingEnabled = true;
             this.checked_UC_Entrada.Items.AddRange(new object[] {
-            "0000",
-            "0001",
-            "0010",
-            "0011",
-            "0100",
-            "0101",
-            "0110",
-            "0111",
-            "1000",
-            "1001",
-            "1010",
-            "1011",
-            "1100",
-            "1101",
-            "1110",
-            "1111"});
+            "0000, 010110000000000000000000, 0001, null",
+            "0001, 001000100000000000000001, XXXX, null",
+            "0010, 000101010000000000100010, 0011, \"ADD A,[dddd]\"",
+            "0011, 000000000011101000100010, 0000, null",
+            "0100, 100000000001101001000010, 0000, \"SUB A, B\"",
+            "0101, 000101010000000000100010, 0110, \"SUB A,[dddd]\"",
+            "0110, 100000000011101000100010, 0000, null",
+            "0111, 000101010000000000100010, 1000, \"MOV A,[dddd]\"",
+            "1000, 000001000101000000100010, 0000, null",
+            "1001, 000001010000000100000010, 0000, \"MOV B, cccc\"",
+            "1010, 000101010000000000100010, 1011, \"MOV [dddd],A\"",
+            "1011, 000000000000100000111010, 0000, null",
+            "1100, 000101000000000010100010, 1101, \"SUB A,[B]\"",
+            "1101, 100000000011101000100010, 0000, null",
+            "1110, 000000000001101001000010, 0000, \"ADD A, B\"",
+            "1111, 000000000000000000000010, 0000, null",
+            "1111, 011000010000000000000010, 0000, \"JNZ rrrr\""});
             this.checked_UC_Entrada.Location = new System.Drawing.Point(6, 17);
             this.checked_UC_Entrada.Name = "checked_UC_Entrada";
-            this.checked_UC_Entrada.Size = new System.Drawing.Size(55, 276);
+            this.checked_UC_Entrada.Size = new System.Drawing.Size(353, 293);
             this.checked_UC_Entrada.TabIndex = 12;
             // 
             // textBox_Salida_UC
             // 
             this.textBox_Salida_UC.Enabled = false;
-            this.textBox_Salida_UC.Location = new System.Drawing.Point(6, 299);
+            this.textBox_Salida_UC.Location = new System.Drawing.Point(7, 316);
             this.textBox_Salida_UC.Name = "textBox_Salida_UC";
-            this.textBox_Salida_UC.Size = new System.Drawing.Size(55, 22);
+            this.textBox_Salida_UC.Size = new System.Drawing.Size(49, 22);
             this.textBox_Salida_UC.TabIndex = 12;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(67, 17);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 14);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "000000000000000000000000";
             // 
             // textBox_DireccionSelecc_UC
             // 
-            this.textBox_DireccionSelecc_UC.Location = new System.Drawing.Point(67, 299);
+            this.textBox_DireccionSelecc_UC.Location = new System.Drawing.Point(62, 316);
             this.textBox_DireccionSelecc_UC.Name = "textBox_DireccionSelecc_UC";
-            this.textBox_DireccionSelecc_UC.Size = new System.Drawing.Size(151, 22);
+            this.textBox_DireccionSelecc_UC.Size = new System.Drawing.Size(179, 22);
             this.textBox_DireccionSelecc_UC.TabIndex = 7;
             // 
             // textBox_instruccion
@@ -556,8 +520,8 @@
             // 
             // text_RL_Entrada_1
             // 
+            this.text_RL_Entrada_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.text_RL_Entrada_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_RL_Entrada_1.Enabled = false;
             this.text_RL_Entrada_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.text_RL_Entrada_1.Location = new System.Drawing.Point(0, 0);
             this.text_RL_Entrada_1.Name = "text_RL_Entrada_1";
@@ -566,8 +530,9 @@
             // 
             // text_RL_Salida_1
             // 
-            this.text_RL_Salida_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.text_RL_Salida_1.BackColor = System.Drawing.Color.White;
             this.text_RL_Salida_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.text_RL_Salida_1.Enabled = false;
             this.text_RL_Salida_1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.text_RL_Salida_1.Location = new System.Drawing.Point(0, 66);
             this.text_RL_Salida_1.Name = "text_RL_Salida_1";
@@ -1518,7 +1483,6 @@
 
         #endregion
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox_DireccionSelecc_UC;
         private System.Windows.Forms.TextBox textBox_instruccion;
         private System.Windows.Forms.CheckedListBox checked_UC_Entrada;
@@ -1616,7 +1580,6 @@
         private System.Windows.Forms.TextBox text_RE_Salida_0;
         private System.Windows.Forms.TextBox text_RE_Salida_1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Label label_EstadoActual;
     }
 }
