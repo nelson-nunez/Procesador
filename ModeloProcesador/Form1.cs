@@ -151,7 +151,20 @@ namespace ModeloProcesador
                 B = B.Calcular_B(Const.FP_C2_CK1, listSalAct, UAL.Salida_general);
                 RE = RE.Calcular_RE(Const.FP_C2_CK1, listSalAct, UAL.Valor_Salida_SZVC);
                 RDI = RDI.Calcular_RDI(Const.FP_C2_CK1, listSalAct, UAL.Salida_general);
-                IP = IP.Calcular_IP(Const.FP_C2_CK1, listSalAct, UAL.Salida_general, IP.Salida_general);
+
+
+                //Osea si es relativo llegado a la ejecucion el IP va a Sumar con RI
+                //En el caso del parcial creo que es IP + JNZ 0110 
+                string sumatemporal = UAL.Salida_general;
+                if (textBox_instruccion.Text.DeterminarModo() == "Direccionamiento Relativo")
+                {
+                    int ual = UAL.Salida_general == "XXXX" ? 0 : Convert.ToInt32(UAL.Salida_general, 2);
+                    int dataDir = Convert.ToInt32("0110", 2);
+                    int suma = ual + dataDir;
+                    sumatemporal = Convert.ToString(suma, 2).PadLeft(4, '0');
+                }
+                
+                IP = IP.Calcular_IP(Const.FP_C2_CK1, listSalAct, sumatemporal, IP.Salida_general);
 
                 #endregion
             }
@@ -184,18 +197,7 @@ namespace ModeloProcesador
                 A = A.Calcular_A(Const.FE_C1_CK0, listSalAct, UAL.Salida_general);
                 B = B.Calcular_B(Const.FE_C1_CK0, listSalAct, UAL.Salida_general);
 
-                //Osea si es relativo llegado a la ejecucion el IP va a Sumar con RI
-                //En el caso del parcial creo que es IP + JNZ 0110 
-                string sumatemporal = UAL.Salida_general;
-                if (textBox_instruccion.Text.DeterminarModo() == "Direccionamiento Relativo")
-                {
-                    int ual = UAL.Salida_general == "XXXX" ? 0 : Convert.ToInt32(UAL.Salida_general, 2);
-                    int dataDir = Convert.ToInt32("0110", 2);
-                    int suma = ual + dataDir;
-                    sumatemporal = Convert.ToString(suma, 2).PadLeft(4, '0'); 
-                }
-
-                IP = IP.Calcular_IP(Const.FE_C1_CK0, listSalAct, sumatemporal, IP.Salida_general);
+                IP = IP.Calcular_IP(Const.FE_C1_CK0, listSalAct, UAL.Salida_general, IP.Salida_general);
                 RDI = RDI.Calcular_RDI(Const.FE_C1_CK0, listSalAct, UAL.Salida_general);
                 BusMemoria = BusMemoria.Calcular_BusDir_Memoria(RDI.Salida_general, listSalAct, Const.FE_C1_CK0);
                 RI_Der = RI_Der.Calcular_RI_Der(Const.FE_C1_CK0, listSalAct, BusMemoria);
@@ -428,7 +430,6 @@ namespace ModeloProcesador
             //textBox_instruccion.Text = "MOV A,[1101]";
             //text_RL_Entrada_1.Text = "0000";
             //text_RE_Salida_1.Text = "XXXX";
-            ////Es la siguiente en este caso MOVA[]
             //text_IP_Salida_1.Text = "0000";
             //text_RDI_Salida_1.Text = "XXXX";
             //text_A_Salida_1.Text = "XXXX";
@@ -436,67 +437,49 @@ namespace ModeloProcesador
             //text_RI_IZQ_Salida_1.Text = "XXXX";
             //text_RI_DER_Salida_1.Text = "XXXX";
 
-            ////SUBA;[1110]
+            ////SUB A;[1110]
             //textBox_instruccion.Text = "SUB A,[1110]";
             //text_RL_Entrada_1.Text = "0000";
             //text_RE_Salida_1.Text = "XXXX";
             //text_RDI_Salida_1.Text = "1101";
             //text_A_Salida_1.Text = "0110";
             //text_B_Salida_1.Text = "XXXX";
-            ////Es la siguiente en este caso SUBA[]
             //text_IP_Salida_1.Text = "0010";
             //text_RI_IZQ_Salida_1.Text = "0111";
             //text_RI_DER_Salida_1.Text = "1101";
 
-            //////Parcial = JNZ 0110
+            ////MOV B,1110
+            //textBox_instruccion.Text = "MOV B,1110";
+            //text_RL_Entrada_1.Text = "0000";
+            //text_RE_Salida_1.Text = "0000";
+            //text_RDI_Salida_1.Text = "1110";
+            //text_A_Salida_1.Text = "0100";
+            //text_B_Salida_1.Text = "XXXX";
+            //text_IP_Salida_1.Text = "0100";
+            //text_RI_IZQ_Salida_1.Text = "0101";
+            //text_RI_DER_Salida_1.Text = "1100";
+
+            //SUB A, [B]
+            //textBox_instruccion.Text = "SUB A, [B]";
+            //text_RL_Entrada_1.Text = "0000";
+            //text_RE_Salida_1.Text = "0000";
+            //text_RDI_Salida_1.Text = "0100";
+            //text_A_Salida_1.Text = "0100";
+            //text_B_Salida_1.Text = "1110";
+            //text_IP_Salida_1.Text = "0110";
+            //text_RI_IZQ_Salida_1.Text = "1001";
+            //text_RI_DER_Salida_1.Text = "1110";
+
+            //Parcial = JNZ 0110
             //textBox_instruccion.Text = "JNZ 0110";
             //text_RL_Entrada_1.Text = "0000";
             //text_RE_Salida_1.Text = "0000";
             //text_RDI_Salida_1.Text = "1110";
             //text_A_Salida_1.Text = "0010";
             //text_B_Salida_1.Text = "1110";
-            ////Es la siguiente en este caso JNZ[]
             //text_IP_Salida_1.Text = "1000";
             //text_RI_IZQ_Salida_1.Text = "1100";
             //text_RI_DER_Salida_1.Text = "0000";
-
-            //ADD A;[0011]
-            //textBox_instruccion.Text = "ADD A,[0011]";
-            //text_RL_Entrada_1.Text = "0000";
-            //text_RE_Salida_1.Text = "XXXX";
-            //text_RDI_Salida_1.Text = "XXXX";
-            //text_A_Salida_1.Text = "1000";
-            //text_B_Salida_1.Text = "XXXX";
-            ////Es la siguiente en este caso ADD A,[]
-            //text_IP_Salida_1.Text = "1010";
-            //text_RI_IZQ_Salida_1.Text = "XXXX";
-            //text_RI_DER_Salida_1.Text = "XXXX";
-
-            //////SUB A, B
-            //textBox_instruccion.Text = "SUB A, B";
-            //text_RL_Entrada_1.Text = "0000";
-            //text_RE_Salida_1.Text = "XXXX";
-            //text_RDI_Salida_1.Text = "0111";
-            //text_A_Salida_1.Text = "0101";
-            //text_B_Salida_1.Text = "0110";
-            ////Es la siguiente en este caso JNZ[]
-            //text_IP_Salida_1.Text = "0111";
-            //text_RI_IZQ_Salida_1.Text = "XXXX";
-            //text_RI_DER_Salida_1.Text = "XXXX";
-
-            //////MOV A,[1100]
-            //textBox_instruccion.Text = "MOV A,[1100]";
-            //text_RL_Entrada_1.Text = "0000";
-            //text_RE_Salida_1.Text = "XXXX";
-            //text_RDI_Salida_1.Text = "XXXX";
-            //text_A_Salida_1.Text = "XXXX";
-            //text_B_Salida_1.Text = "XXXX";
-            ////Es la siguiente en este caso JNZ[]
-            //text_IP_Salida_1.Text = "0001";
-            //text_RI_IZQ_Salida_1.Text = "XXXX";
-            //text_RI_DER_Salida_1.Text = "XXXX";
-
-
 
             // RL
             RL.Valor_Entrada_0 = text_RL_Entrada_1.Text;
@@ -531,6 +514,5 @@ namespace ModeloProcesador
             RI_Der.Valor_Salida_0 = text_RI_DER_Salida_1.Text;
             RI_Der.Salida_general = RI_Der.Valor_Salida_0;
         }
-
     }
 }

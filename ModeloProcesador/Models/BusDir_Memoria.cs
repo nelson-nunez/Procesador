@@ -58,10 +58,15 @@ namespace ModeloProcesador.Models
             // Si LE es 0, no se permite acceso a memoria.
             if (LE == "0") return this;
 
+            //Verificar luego del CRDI en 1 la instruccion siguiente eleva los datos a RDA
 
             if (Constantes.TryGetValue(salida_RDI, out string resultado))
             {
-                if (string.IsNullOrEmpty(resultado) || (am == "1" & (fase == Const.FP_C1_CK0 | fase == Const.FE_C1_CK0)))
+                if (
+                    string.IsNullOrEmpty(resultado) || 
+                    (am == "1" & (fase == Const.FP_C1_CK0 | fase == Const.FE_C1_CK0)) ||
+                    (fase == Const.FE_C1_CK0)
+                   )
                 {
                     RDA2 = "XXXX";
                     RDA1 = "XXXX";
