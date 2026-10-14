@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
+  <title id="t">Ciclo de instrucción</title>
+  <desc id="d">Fase de pedido (ciclos 1 y 2) seguida de fase de ejecución (ciclos 1 y 2); cada ciclo tiene Ck=0 y Ck=1.</desc>
+  <style>
+    :root{--bg:#0f1b2d;--fg:#f2f6fb;--mut:#8ea3bd;--pri:#2dd4bf;--acc:#fbbf24}
+    @media (prefers-color-scheme: light){:root{--bg:#f4f8fc;--fg:#0f1b2d;--mut:#54698a;--pri:#0f766e;--acc:#b45309}}
+    text{font-family:"Segoe UI",system-ui,sans-serif;text-anchor:middle}
+    .bg{fill:var(--bg)} .p{fill:none;stroke:var(--pri);stroke-width:3} .e{fill:none;stroke:var(--acc);stroke-width:3}
+    .t{fill:var(--fg);font-size:26px;font-weight:700} .s{fill:var(--mut);font-size:20px}
+    .a{stroke:var(--mut);stroke-width:3;fill:none}
+  </style>
+  <rect class="bg" width="1200" height="260"/>
+  <text class="s" x="300" y="40">FASE DE PEDIDO · busca la instrucción</text>
+  <text class="s" x="900" y="40">FASE DE EJECUCIÓN · la realiza</text>
+  <rect class="p" x="40" y="60" width="250" height="130" rx="12"/><text class="t" x="165" y="115">Ciclo 1</text><text class="s" x="165" y="150">Ck=0 → Ck=1</text>
+  <rect class="p" x="320" y="60" width="250" height="130" rx="12"/><text class="t" x="445" y="115">Ciclo 2</text><text class="s" x="445" y="150">Ck=0 → Ck=1</text>
+  <rect class="e" x="640" y="60" width="250" height="130" rx="12"/><text class="t" x="765" y="115">Ciclo 1</text><text class="s" x="765" y="150">Ck=0 → Ck=1</text>
+  <rect class="e" x="920" y="60" width="250" height="130" rx="12"/><text class="t" x="1045" y="115">Ciclo 2</text><text class="s" x="1045" y="150">Ck=0 → Ck=1</text>
+  <path class="a" d="M290 125h30M570 125h70M890 125h30"/>
+  <text class="s" x="600" y="235">Al terminar, la UC vuelve a la dirección 0000 y el IP apunta a la siguiente instrucción.</text>
+</svg>
