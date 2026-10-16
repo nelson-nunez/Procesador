@@ -80,16 +80,4 @@ Necesitas Windows, Visual Studio 2017 o posterior y .NET Framework 4.8.
 2. Presiona **F5** para compilar y ejecutar.
 3. Ingresa una instrucción en el campo **Instrucción** y avanza con los botones de ciclo.
 
-## Estructura
 
-```text
-ModeloProcesador/
-├── Extensions/   # juego de instrucciones, modos de direccionamiento, utilidades
-├── Models/       # flip-flop base y componentes (A, B, IP, RI, UAL, RE, RL, RDI, bus)
-├── Form1.cs      # interfaz y control del ciclo
-└── Program.cs    # punto de entrada
-```
-
-## Licencia
-
-TODO: definir licencia (el repositorio todavía no tiene archivo `LICENSE`).

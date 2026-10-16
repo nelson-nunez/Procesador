@@ -97,5 +97,8 @@
   <ItemGroup>
     <None Include="Resources\FONDO.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Modelo Procesador.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
